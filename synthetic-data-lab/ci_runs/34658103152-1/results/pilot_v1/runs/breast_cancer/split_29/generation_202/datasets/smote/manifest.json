@@ -1,0 +1,12 @@
+{
+  "class_counts": [
+    144,
+    240
+  ],
+  "configuration": "smote",
+  "generation_seed": 202,
+  "rows": 384,
+  "source_real_x_sha256": "8e37e555ae996a567d1130dd4316f2591986b89eca77cba36aff2f88258d294a",
+  "x_sha256": "6d9b96fc39931c010770cfbe77c347528e890ad2a09b93123a50e3a119b8e20b",
+  "y_sha256": "56beb1091ab7848f4e8bf2de7d1328b456a3f75aa1bcc4cfb52400ca342ef0fd"
+}

@@ -1,0 +1,36 @@
+{
+  "development_class_counts": [
+    40,
+    67
+  ],
+  "per_class_development_losses": [
+    [
+      0.06623462655689893,
+      0.01127958012793805
+    ],
+    [
+      0.5667518716595235,
+      0.07857374511020838
+    ],
+    [
+      0.4725446677112568,
+      0.011638727540559389
+    ],
+    [
+      0.1888630672141436,
+      0.11131525986078952
+    ]
+  ],
+  "probe_optimization_steps_per_seed": 150,
+  "probe_training_seeds": [
+    7,
+    11
+  ],
+  "source_order": [
+    "copula",
+    "ctgan",
+    "tvae",
+    "ddpm"
+  ],
+  "source_training_cost_seconds": 18.582539010999994
+}

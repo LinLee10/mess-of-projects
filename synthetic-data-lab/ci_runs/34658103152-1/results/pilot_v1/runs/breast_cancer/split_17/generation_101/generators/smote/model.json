@@ -1,0 +1,14 @@
+{
+  "audit": {
+    "adaptation": "SMOTE interpolation applied to all classes under matched class counts, not only minority oversampling",
+    "fit_seconds": 0.0011155060000191952,
+    "method": "smote",
+    "neural_model": false,
+    "real_model_training": true,
+    "seed": 101,
+    "training_x_sha256": "45037f5eacaa2e3343c0dbbaa39c71bc1d180a4a639e6fe8f7753aeb95fada5f",
+    "training_y_sha256": "0e2c3c17d76e983c68d6c23317fa9d6ad741abfc4d6b4cc6cd81c371ee3b037b"
+  },
+  "method": "smote",
+  "seed": 101
+}

@@ -1,0 +1,31 @@
+{
+  "copying_baseline": true,
+  "diagnostics": {
+    "class_counts": [
+      144,
+      240
+    ],
+    "correlation_columns": 30,
+    "correlation_mean_absolute_error_train": 0.0380558880262644,
+    "exact_internal_duplicate_rate": 0.6979166666666667,
+    "exact_training_copy_rate": 1.0,
+    "limitations": "Training reference diagnostics favor memorization; distances do not establish privacy or semantic validity",
+    "marginal_wasserstein_train_standardized": 0.05810686038342428,
+    "n": 384,
+    "nearest_training_distance_median": 0.0,
+    "negative_feature_row_fraction": 0.0
+  },
+  "fit_seconds": 0.0,
+  "method": "bootstrap",
+  "pool_x_sha256": "76c2ecfff6a90bfdeb895294bdbcb59e7d47832c7cf6f3a0d0fbc5547b6be7cf",
+  "pool_y_sha256": "c81d42668e8756f4d1b102af2fbfd6560a8f530b26e51e41dcd385c07a7a9fdc",
+  "real_model_training": false,
+  "sampling": {
+    "generated": 1536,
+    "requested": 1536,
+    "retained_fraction": 1.0
+  },
+  "total_fit_and_sample_seconds": 0.007118257999991329,
+  "training_x_sha256": "a1b203fb3649d3be0bcbce757e2c1a8d18c990013eb99093a38fcf2784df4aad",
+  "training_y_sha256": "54b71adf471903284e9a8d264e34f4089e7b2574a0c58e9c1631f1ac6c5d3f17"
+}

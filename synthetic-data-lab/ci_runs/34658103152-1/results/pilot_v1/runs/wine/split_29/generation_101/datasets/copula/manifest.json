@@ -1,0 +1,13 @@
+{
+  "class_counts": [
+    128,
+    154,
+    102
+  ],
+  "configuration": "copula",
+  "generation_seed": 101,
+  "rows": 384,
+  "source_real_x_sha256": "99dc378982ba1c5d7b09bedbe73092a3257977a19d2fa893a443b867ec289e26",
+  "x_sha256": "ebe8f803c5cf41c0a3a6251c9f360313cb684c8234c381469238ac23db721ba5",
+  "y_sha256": "439c73f86662a8f63a69296af74a92ba0950bbc15f26087a7d2e0d63dcd7db11"
+}

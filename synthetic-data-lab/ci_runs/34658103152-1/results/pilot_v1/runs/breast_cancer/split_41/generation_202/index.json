@@ -1,0 +1,2855 @@
+{
+  "generation_seed": 202,
+  "rows": [
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.16896304283969496,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.34036330976068824,
+          0.06663452527492282
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "real_only",
+      "path": "runs/breast_cancer/split_41/generation_202/students/real_only/real_only/7",
+      "regime": "real_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.14487160348926956,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.2621725750553293,
+          0.07484117270356228
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "real_only",
+      "path": "runs/breast_cancer/split_41/generation_202/students/real_only/real_only/11",
+      "regime": "real_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.08711465238486943,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.17983768393306987,
+          0.031757618624749746
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "method": "real_only",
+      "path": "runs/breast_cancer/split_41/generation_202/students/real_only/real_only/logistic",
+      "regime": "real_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9906542056074766,
+        "balanced_accuracy": 0.9875,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.1252600396162965,
+        "macro_f1": 0.9899671823722457,
+        "n": 107,
+        "per_class_loss": [
+          0.3257686725364032,
+          0.005553393096829832
+        ],
+        "per_class_recall": [
+          0.975,
+          1.0
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9906542056074766,
+        "balanced_accuracy": 0.9875,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.08611655973116059,
+        "macro_f1": 0.9899671823722457,
+        "n": 107,
+        "per_class_loss": [
+          0.21592546611329283,
+          0.00861870517466371
+        ],
+        "per_class_recall": [
+          0.975,
+          1.0
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.975,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.09231216757466622,
+        "macro_f1": 0.9798265460030167,
+        "n": 107,
+        "per_class_loss": [
+          0.19896250155942807,
+          0.02864032638973378
+        ],
+        "per_class_recall": [
+          0.95,
+          1.0
+        ]
+      },
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.15684365683699478,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.33186966411086816,
+          0.052350518166025546
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1324372645948138,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.2552109019279793,
+          0.05913957066456576
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.08969448631375466,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.18894900467508663,
+          0.03043805744131764
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "method": "bootstrap",
+      "path": "runs/breast_cancer/split_41/generation_202/students/bootstrap/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.17962389643266216,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.38633903595924984,
+          0.05621187283469942
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1272711165795888,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.24131837440571458,
+          0.05918320145951373
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9532710280373832,
+        "balanced_accuracy": 0.9475746268656717,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            2,
+            65
+          ]
+        ],
+        "log_loss": 0.11325839195968503,
+        "macro_f1": 0.9498359118612283,
+        "n": 107,
+        "per_class_loss": [
+          0.21010059062329348,
+          0.05544215395156059
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9701492537313433
+        ]
+      },
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.16623793776379175,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.3424293474996877,
+          0.06104903642892844
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1326927402878127,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.2521082825480207,
+          0.061399879236942276
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09433208315936172,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18762938334423718,
+          0.038632202451973394
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "smote",
+      "path": "runs/breast_cancer/split_41/generation_202/students/smote/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.2835755285101159,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.5939795990498025,
+          0.0982596655013479
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.2708024474615876,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.5106683763990528,
+          0.12759890779742927
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.12115489247067099,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.251864052671601,
+          0.043119572947727725
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.21911102703972166,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.5046439121934855,
+          0.04864363291807158
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.22405074589606955,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.4538984794292589,
+          0.08682821841356841
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09186406621051743,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18824339525154166,
+          0.03432416827557761
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "copula",
+      "path": "runs/breast_cancer/split_41/generation_202/students/copula/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9158878504672897,
+        "balanced_accuracy": 0.9126865671641791,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            5,
+            62
+          ]
+        ],
+        "log_loss": 0.611663069932503,
+        "macro_f1": 0.910609857978279,
+        "n": 107,
+        "per_class_loss": [
+          0.6276891137411832,
+          0.602095282584037
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9253731343283582
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9065420560747663,
+        "balanced_accuracy": 0.905223880597015,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            6,
+            61
+          ]
+        ],
+        "log_loss": 0.6657788734744027,
+        "macro_f1": 0.9011456023651145,
+        "n": 107,
+        "per_class_loss": [
+          0.5523628108977221,
+          0.7334899556097347
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9104477611940298
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.897196261682243,
+        "balanced_accuracy": 0.8876865671641792,
+        "confusion_matrix": [
+          [
+            34,
+            6
+          ],
+          [
+            5,
+            62
+          ]
+        ],
+        "log_loss": 0.24924726657457255,
+        "macro_f1": 0.8896390060947024,
+        "n": 107,
+        "per_class_loss": [
+          0.31158199865911335,
+          0.21203250115096609
+        ],
+        "per_class_recall": [
+          0.85,
+          0.9253731343283582
+        ]
+      },
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11048181929243203,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.20884069680458178,
+          0.051760101374730715
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11800158675050147,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.228432580408229,
+          0.052072635313052174
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.08790232847700705,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.15377358690532916,
+          0.048576204042187855
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "ctgan",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.95,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.4811092986474885,
+        "macro_f1": 0.9591914569031273,
+        "n": 107,
+        "per_class_loss": [
+          1.2846557332095196,
+          0.001380083983589448
+        ],
+        "per_class_recall": [
+          0.9,
+          1.0
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.95,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.46218950812688886,
+        "macro_f1": 0.9591914569031273,
+        "n": 107,
+        "per_class_loss": [
+          1.2278693810135042,
+          0.005067195955775041
+        ],
+        "per_class_recall": [
+          0.9,
+          1.0
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9439252336448598,
+        "balanced_accuracy": 0.9300373134328358,
+        "confusion_matrix": [
+          [
+            35,
+            5
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1659175357843518,
+        "macro_f1": 0.9387871853546911,
+        "n": 107,
+        "per_class_loss": [
+          0.3936285511110097,
+          0.029970660962466537
+        ],
+        "per_class_recall": [
+          0.875,
+          0.9850746268656716
+        ]
+      },
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.28961185378649673,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.740387968587161,
+          0.0204917852487867
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.2730653284470533,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.7051898015093085,
+          0.01508056840988591
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9532710280373832,
+        "balanced_accuracy": 0.9425373134328359,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1276824800298951,
+        "macro_f1": 0.9492842923499858,
+        "n": 107,
+        "per_class_loss": [
+          0.2837221594759317,
+          0.03452446245017177
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9850746268656716
+        ]
+      },
+      "method": "tvae",
+      "path": "runs/breast_cancer/split_41/generation_202/students/tvae/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9439252336448598,
+        "balanced_accuracy": 0.9552238805970149,
+        "confusion_matrix": [
+          [
+            40,
+            0
+          ],
+          [
+            6,
+            61
+          ]
+        ],
+        "log_loss": 0.08770898507106659,
+        "macro_f1": 0.9416787790697674,
+        "n": 107,
+        "per_class_loss": [
+          0.0052517248697414596,
+          0.13693720011663382
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9104477611940298
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9776119402985075,
+        "confusion_matrix": [
+          [
+            40,
+            0
+          ],
+          [
+            3,
+            64
+          ]
+        ],
+        "log_loss": 0.080909104469361,
+        "macro_f1": 0.9704773291639841,
+        "n": 107,
+        "per_class_loss": [
+          0.0017058242820210008,
+          0.12819464487971324
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9552238805970149
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11206219674342693,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.11063048464367509,
+          0.11291695023581605
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9725746268656716,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            2,
+            65
+          ]
+        ],
+        "log_loss": 0.09015219227685815,
+        "macro_f1": 0.9702032859927596,
+        "n": 107,
+        "per_class_loss": [
+          0.03874915907268437,
+          0.12084057030920076
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9701492537313433
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9850746268656716,
+        "confusion_matrix": [
+          [
+            40,
+            0
+          ],
+          [
+            2,
+            65
+          ]
+        ],
+        "log_loss": 0.07304433548165182,
+        "macro_f1": 0.9802291204730229,
+        "n": 107,
+        "per_class_loss": [
+          0.005732351755461493,
+          0.11323059442266098
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9701492537313433
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09584327385400478,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.1401400032754913,
+          0.06939746524416203
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9439252336448598,
+        "balanced_accuracy": 0.9350746268656717,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            2,
+            65
+          ]
+        ],
+        "log_loss": 0.174897950091815,
+        "macro_f1": 0.9394796380090498,
+        "n": 107,
+        "per_class_loss": [
+          0.3617333105760848,
+          0.06335445129523601
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9701492537313433
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9439252336448598,
+        "balanced_accuracy": 0.9350746268656717,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            2,
+            65
+          ]
+        ],
+        "log_loss": 0.1879303980088034,
+        "macro_f1": 0.9394796380090498,
+        "n": 107,
+        "per_class_loss": [
+          0.39198050305923104,
+          0.06610943976974219
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9701492537313433
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9345794392523364,
+        "balanced_accuracy": 0.9175373134328357,
+        "confusion_matrix": [
+          [
+            34,
+            6
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.13480687319743823,
+        "macro_f1": 0.9281534772182254,
+        "n": 107,
+        "per_class_loss": [
+          0.2799769641102102,
+          0.048138162204738544
+        ],
+        "per_class_recall": [
+          0.85,
+          0.9850746268656716
+        ]
+      },
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1698523509113178,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.386070222824718,
+          0.040767054246601354
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.16153033923602336,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.35551678396335673,
+          0.04571753641373477
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09126859279489533,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18628834658067606,
+          0.03454038157950383
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "ctgan_unpacked",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_unpacked/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.5514018691588785,
+        "balanced_accuracy": 0.6367537313432836,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            47,
+            20
+          ]
+        ],
+        "log_loss": 2.104920666694258,
+        "macro_f1": 0.5367965367965368,
+        "n": 107,
+        "per_class_loss": [
+          0.2690204971897786,
+          3.200980469383499
+        ],
+        "per_class_recall": [
+          0.975,
+          0.29850746268656714
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.5046728971962616,
+        "balanced_accuracy": 0.5944029850746269,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            51,
+            16
+          ]
+        ],
+        "log_loss": 2.8266371171714995,
+        "macro_f1": 0.4828089375284998,
+        "n": 107,
+        "per_class_loss": [
+          0.37982257462426244,
+          4.287421918692238
+        ],
+        "per_class_recall": [
+          0.95,
+          0.23880597014925373
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.5514018691588785,
+        "balanced_accuracy": 0.6166044776119403,
+        "confusion_matrix": [
+          [
+            35,
+            5
+          ],
+          [
+            43,
+            24
+          ]
+        ],
+        "log_loss": 0.6950563151117604,
+        "macro_f1": 0.5466101694915254,
+        "n": 107,
+        "per_class_loss": [
+          0.3312564623045774,
+          0.912250257086198
+        ],
+        "per_class_recall": [
+          0.875,
+          0.3582089552238806
+        ]
+      },
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.19204685702288984,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.43839723962379995,
+          0.04497200173876441
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.17170347785088252,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.3949646818047833,
+          0.03841320683362833
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1478169831591265,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.21538702300604498,
+          0.10747666086245876
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "ctgan_one_mode",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ctgan_one_mode/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.6355140186915887,
+        "balanced_accuracy": 0.567910447761194,
+        "confusion_matrix": [
+          [
+            12,
+            28
+          ],
+          [
+            11,
+            56
+          ]
+        ],
+        "log_loss": 0.8297704310327497,
+        "macro_f1": 0.5613371176285084,
+        "n": 107,
+        "per_class_loss": [
+          1.4893269844950694,
+          0.43600532448808094
+        ],
+        "per_class_recall": [
+          0.3,
+          0.835820895522388
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.45794392523364486,
+        "balanced_accuracy": 0.4210820895522388,
+        "confusion_matrix": [
+          [
+            11,
+            29
+          ],
+          [
+            29,
+            38
+          ]
+        ],
+        "log_loss": 1.0054422523507827,
+        "macro_f1": 0.4210820895522388,
+        "n": 107,
+        "per_class_loss": [
+          1.5778060110603196,
+          0.6637325456585219
+        ],
+        "per_class_recall": [
+          0.275,
+          0.5671641791044776
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.6355140186915887,
+        "balanced_accuracy": 0.5175373134328358,
+        "confusion_matrix": [
+          [
+            2,
+            38
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.6618729885821868,
+        "macro_f1": 0.43247654018767845,
+        "n": 107,
+        "per_class_loss": [
+          1.0201879493614618,
+          0.44795360901247006
+        ],
+        "per_class_recall": [
+          0.05,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.20501310608929843,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.2543563783309196,
+          0.17555443609430071
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9345794392523364,
+        "balanced_accuracy": 0.9276119402985075,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            3,
+            64
+          ]
+        ],
+        "log_loss": 0.2474995630548468,
+        "macro_f1": 0.9297702766057196,
+        "n": 107,
+        "per_class_loss": [
+          0.3019327162954682,
+          0.21500215813507284
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9552238805970149
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9345794392523364,
+        "balanced_accuracy": 0.9175373134328357,
+        "confusion_matrix": [
+          [
+            34,
+            6
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.35331520803844396,
+        "macro_f1": 0.9281534772182254,
+        "n": 107,
+        "per_class_loss": [
+          0.4868577939733708,
+          0.2735882910623682
+        ],
+        "per_class_recall": [
+          0.85,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm_unconditional",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_unconditional/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1502084170442532,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.30724355929304836,
+          0.05645609331362918
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09254173278234713,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.16650943214088615,
+          0.04838191226978651
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.10569204068872007,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18010129928403124,
+          0.061268602721370136
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.15843072967783464,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.29578635663656205,
+          0.07642737029948986
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11929790619345713,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.20159189231692642,
+          0.07016716820929632
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.0934000570462302,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.16530515502638252,
+          0.05047164034166163
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "method": "ddpm_standardized",
+      "path": "runs/breast_cancer/split_41/generation_202/students/ddpm_standardized/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.28387843578035254,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.5566350133923891,
+          0.12103868795227105
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.21167935710867494,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.35939989287818885,
+          0.12348799247015922
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.10086361495242246,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18332363420336878,
+          0.05163375271305151
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.2661635656385668,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.47451298271325343,
+          0.14177585395218661
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.2044037117975272,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.27688675401519763,
+          0.16113025375712692
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09553649916307307,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.18160793692618188,
+          0.04415056617017229
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_uniform",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_uniform/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.3046643773035051,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.7400450832010403,
+          0.044735597663185675
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.22883143438858528,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.5215575260365846,
+          0.05406958862858579
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9532710280373832,
+        "balanced_accuracy": 0.9425373134328359,
+        "confusion_matrix": [
+          [
+            36,
+            4
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.122203539253281,
+        "macro_f1": 0.9492842923499858,
+        "n": 107,
+        "per_class_loss": [
+          0.23949610137984897,
+          0.05217812902846428
+        ],
+        "per_class_recall": [
+          0.9,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.21701346599092355,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.47145821075038113,
+          0.06510615568676982
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.20397276328299185,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.46721585738182114,
+          0.046812707104586286
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.10784031077432722,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.21286252015074533,
+          0.04514048428094328
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_utility",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09535334419705296,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.21561257462539934,
+          0.023556788717443176
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11111119361740136,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.20916696816764588,
+          0.05257043269188222
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.975,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.08464618251774597,
+        "macro_f1": 0.9798265460030167,
+        "n": 107,
+        "per_class_loss": [
+          0.15760363079182907,
+          0.04108949698097996
+        ],
+        "per_class_recall": [
+          0.95,
+          1.0
+        ]
+      },
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.16017344508921957,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.2726922905288342,
+          0.09299801497601674
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.14721349570150602,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.2270112370320009,
+          0.09957305311613594
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.975,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            0,
+            67
+          ]
+        ],
+        "log_loss": 0.08032391541598677,
+        "macro_f1": 0.9798265460030167,
+        "n": 107,
+        "per_class_loss": [
+          0.15383305197024252,
+          0.036437863741804216
+        ],
+        "per_class_recall": [
+          0.95,
+          1.0
+        ]
+      },
+      "method": "mixture_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_support/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.26698437164257993,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.5864592515869413,
+          0.07625310003400591
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9719626168224299,
+        "balanced_accuracy": 0.9675373134328358,
+        "confusion_matrix": [
+          [
+            38,
+            2
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.18289710863544092,
+        "macro_f1": 0.9699015471167369,
+        "n": 107,
+        "per_class_loss": [
+          0.39275309775222644,
+          0.057609950953777946
+        ],
+        "per_class_recall": [
+          0.95,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.11077778168301594,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.19832411121284568,
+          0.05851131629207287
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9813084112149533,
+        "balanced_accuracy": 0.9800373134328357,
+        "confusion_matrix": [
+          [
+            39,
+            1
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.1908283592711444,
+        "macro_f1": 0.9800373134328357,
+        "n": 107,
+        "per_class_loss": [
+          0.41054294709887307,
+          0.05965547101578398
+        ],
+        "per_class_recall": [
+          0.975,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "b8fd5a85bb4407ae141c8094d933833610ada426669f2325d2026a0a168a453f",
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.15582056962146162,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.3347213056702982,
+          0.049014160040066666
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "initial_sha256": "ece658459f460091fe65c5a8abcdfde255a830d64e9de26e478c5eb4836d6984",
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9626168224299065,
+        "balanced_accuracy": 0.9550373134328358,
+        "confusion_matrix": [
+          [
+            37,
+            3
+          ],
+          [
+            1,
+            66
+          ]
+        ],
+        "log_loss": 0.09831717897039807,
+        "macro_f1": 0.9596530920060331,
+        "n": 107,
+        "per_class_loss": [
+          0.1854151219782105,
+          0.04631840702543541
+        ],
+        "per_class_recall": [
+          0.925,
+          0.9850746268656716
+        ]
+      },
+      "method": "mixture_utility_support",
+      "path": "runs/breast_cancer/split_41/generation_202/students/mixture_utility_support/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    }
+  ],
+  "selection": {
+    "balanced_accuracy": 0.9875,
+    "log_loss": 0.10568829967372854,
+    "method": "bootstrap",
+    "regime": "synthetic_only"
+  },
+  "split_path": "splits/breast_cancer/41",
+  "status": "completed"
+}

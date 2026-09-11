@@ -1,0 +1,12 @@
+{
+  "class_counts": [
+    144,
+    240
+  ],
+  "configuration": "mixture_utility_support",
+  "generation_seed": 202,
+  "rows": 384,
+  "source_real_x_sha256": "8e37e555ae996a567d1130dd4316f2591986b89eca77cba36aff2f88258d294a",
+  "x_sha256": "16ead76b1f18216db25b6a036b52d3366cd0c469c4631d2bf487f0d440e1c235",
+  "y_sha256": "56beb1091ab7848f4e8bf2de7d1328b456a3f75aa1bcc4cfb52400ca342ef0fd"
+}

@@ -1,0 +1,19 @@
+{
+  "replicates": [
+    "runs/wine/split_17/generation_101/index.json",
+    "runs/wine/split_17/generation_202/index.json",
+    "runs/wine/split_29/generation_101/index.json",
+    "runs/wine/split_29/generation_202/index.json",
+    "runs/wine/split_41/generation_101/index.json",
+    "runs/wine/split_41/generation_202/index.json",
+    "runs/breast_cancer/split_17/generation_101/index.json",
+    "runs/breast_cancer/split_17/generation_202/index.json",
+    "runs/breast_cancer/split_29/generation_101/index.json",
+    "runs/breast_cancer/split_29/generation_202/index.json",
+    "runs/breast_cancer/split_41/generation_101/index.json",
+    "runs/breast_cancer/split_41/generation_202/index.json"
+  ],
+  "status": "training_completed",
+  "test_evaluated": false,
+  "training_elapsed_seconds": 580.859621133
+}

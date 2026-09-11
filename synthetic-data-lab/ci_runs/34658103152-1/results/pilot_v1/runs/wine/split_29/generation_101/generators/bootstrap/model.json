@@ -1,0 +1,13 @@
+{
+  "copying_baseline": true,
+  "fit_seconds": 0.0,
+  "method": "bootstrap",
+  "real_model_training": false,
+  "sampling": {
+    "generated": 1536,
+    "requested": 1536,
+    "retained_fraction": 1.0
+  },
+  "training_x_sha256": "99dc378982ba1c5d7b09bedbe73092a3257977a19d2fa893a443b867ec289e26",
+  "training_y_sha256": "100c8ab4ae8b5ba4ce22abe0f54f1fa4350dafd28303fa9e23cb791d4cb87dc2"
+}

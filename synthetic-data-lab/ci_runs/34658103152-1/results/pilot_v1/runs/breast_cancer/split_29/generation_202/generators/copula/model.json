@@ -1,0 +1,20 @@
+{
+  "audit": {
+    "fit_seconds": 0.004325212999901851,
+    "mechanisms": [
+      "class conditional empirical marginals",
+      "Gaussian copula",
+      "Ledoit Wolf covariance shrinkage"
+    ],
+    "method": "copula",
+    "neural_model": false,
+    "real_model_training": true,
+    "seed": 202,
+    "training_x_sha256": "8e37e555ae996a567d1130dd4316f2591986b89eca77cba36aff2f88258d294a",
+    "training_y_sha256": "d8a45bac709e29c43317f6659763ff8d77cd33f92fa247e16f4ec39db3e2d996"
+  },
+  "method": "copula",
+  "n_classes": 2,
+  "n_features": 30,
+  "seed": 202
+}

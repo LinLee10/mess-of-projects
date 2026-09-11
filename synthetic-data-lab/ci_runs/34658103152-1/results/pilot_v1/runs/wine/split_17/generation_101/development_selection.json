@@ -1,0 +1,187 @@
+{
+  "ranked_candidates": [
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.011185786248455277,
+      "method": "ddpm_standardized",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.012140809977205794,
+      "method": "ddpm_standardized",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.01242476133350456,
+      "method": "bootstrap",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.013223686243635638,
+      "method": "mixture_utility_support",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.013685051644070008,
+      "method": "bootstrap",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.01624376450957064,
+      "method": "copula",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.017278928701964957,
+      "method": "real_only",
+      "regime": "real_only"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.019697500899504596,
+      "method": "smote",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.023679347255601793,
+      "method": "mixture_utility",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.025992325252341433,
+      "method": "ddpm",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.029937532995826903,
+      "method": "mixture_uniform",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.030562489294465957,
+      "method": "copula",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9880952380952381,
+      "log_loss": 0.030319132902174195,
+      "method": "mixture_utility_support",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9880952380952381,
+      "log_loss": 0.03132859215556086,
+      "method": "ddpm",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9880952380952381,
+      "log_loss": 0.032987692710474116,
+      "method": "smote",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9880952380952381,
+      "log_loss": 0.04628543708228091,
+      "method": "mixture_uniform",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9848484848484849,
+      "log_loss": 0.025654152874491593,
+      "method": "ctgan_unpacked",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.9848484848484849,
+      "log_loss": 0.03922350657752581,
+      "method": "tvae",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.9761904761904763,
+      "log_loss": 0.07428502407233184,
+      "method": "mixture_utility",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9761904761904763,
+      "log_loss": 0.10846770105282741,
+      "method": "ctgan",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.9696969696969697,
+      "log_loss": 0.09363631258671892,
+      "method": "mixture_support",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.9696969696969697,
+      "log_loss": 0.11154714221145004,
+      "method": "tvae",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9696969696969697,
+      "log_loss": 0.11794164425388179,
+      "method": "ctgan_one_mode",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.9610389610389611,
+      "log_loss": 0.18733473573239323,
+      "method": "ctgan_unpacked",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.922077922077922,
+      "log_loss": 0.21565679524768497,
+      "method": "mixture_support",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.9220779220779219,
+      "log_loss": 0.23096104652742844,
+      "method": "ctgan",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.8585858585858586,
+      "log_loss": 0.32970315177511456,
+      "method": "ctgan_one_mode",
+      "regime": "synthetic_only"
+    },
+    {
+      "balanced_accuracy": 0.8069985569985569,
+      "log_loss": 0.6725030916888156,
+      "method": "ddpm_unconditional",
+      "regime": "augment"
+    },
+    {
+      "balanced_accuracy": 0.34824434824434825,
+      "log_loss": 1.2613691515033278,
+      "method": "ddpm_unconditional",
+      "regime": "synthetic_only"
+    }
+  ],
+  "rule": "Development balanced accuracy, then lower development log loss, then stable lexical method order",
+  "scope": "One split and generator seed; mean across student seeds",
+  "selection_uses_test": false,
+  "winner": {
+    "balanced_accuracy": 1.0,
+    "log_loss": 0.011185786248455277,
+    "method": "ddpm_standardized",
+    "regime": "augment"
+  }
+}
