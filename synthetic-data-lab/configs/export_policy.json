@@ -1,0 +1,12 @@
+{
+  "recorded_before_final_test_evaluation": true,
+  "dataset": "wine",
+  "split_seed": 17,
+  "generation_seed": 101,
+  "exported_student_seed": 7,
+  "selection": "Use this replicate's already recorded development ranking only. Export its overall selected student and, separately, its best noncopying synthetic_only generator or portfolio. Exclude bootstrap and real_only only from the latter generator selection. No aggregate selection across overlapping split seeds.",
+  "experimental_portfolio": "mixture_utility_support",
+  "sample_count": 1000,
+  "sample_seed": 901,
+  "deployment_status": "research demonstration only"
+}
