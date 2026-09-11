@@ -110,7 +110,7 @@ def independent_metrics(y, p):
 
 def compare_metrics(expected, actual, where):
     for key in ("accuracy", "balanced_accuracy", "macro_f1", "log_loss"):
-        require(abs(expected[key] - actual[key]) <= 1e-10, f"Metric mismatch at {where}: {key}")
+        require(abs(expected[key] - actual[key]) <= 1e-10, f"Metric mismatch at {where}: {key}; expected={expected[key]!r}, observed={actual[key]!r}")
     for key in ("confusion_matrix", "n"):
         require(expected[key] == actual[key], f"Count mismatch at {where}: {key}")
     for key in ("per_class_loss", "per_class_recall"):
@@ -118,6 +118,47 @@ def compare_metrics(expected, actual, where):
         for a, b in zip(expected[key], actual[key]):
             require((a is None and b is None) or (a is not None and b is not None and abs(a-b) <= 1e-10),
                     f"Class metric mismatch at {where}: {key}")
+
+
+# Saved probabilities have a strict arithmetic contract. Recomputed inference
+# is a different check: single precision kernels can vary across CPU models.
+# These bounds never authorize changing a predicted class or a saved metric.
+INFERENCE_ATOL = 1e-6
+INFERENCE_RTOL = 1e-5
+
+
+def compare_inference(recorded, reconstructed, where):
+    recorded, reconstructed = np.asarray(recorded), np.asarray(reconstructed)
+    require(recorded.shape == reconstructed.shape, f"Inference shape mismatch at {where}")
+    require(np.isfinite(reconstructed).all(), f"Nonfinite inference at {where}")
+    difference = float(np.max(np.abs(recorded - reconstructed)))
+    require(np.allclose(recorded, reconstructed, rtol=INFERENCE_RTOL, atol=INFERENCE_ATOL),
+            f"Checkpoint probabilities materially differ at {where}: max absolute difference {difference}")
+    require(np.array_equal(recorded.argmax(1), reconstructed.argmax(1)),
+            f"Checkpoint decisions changed at {where}")
+    return {"path": where, "exact": bool(np.array_equal(recorded, reconstructed)),
+            "maximum_absolute_probability_difference": difference}
+
+
+def compare_reconstructed_metrics(expected, actual, where):
+    """Probes/logistic dev do not store probabilities. Disclose this weaker check.
+
+    Count and decision metrics remain exact. Losses permit explicitly bounded
+    numerical drift from reconstructed inference, not from stored predictions.
+    """
+    for key in ("accuracy", "balanced_accuracy", "macro_f1", "per_class_recall", "confusion_matrix", "n"):
+        require(np.array_equal(expected[key], actual[key]), f"Reconstructed decisions changed at {where}: {key}")
+    differences = []
+    for a, b in [(expected["log_loss"], actual["log_loss"]), *zip(expected["per_class_loss"], actual["per_class_loss"])]:
+        require((a is None) == (b is None), f"Reconstructed class coverage mismatch at {where}")
+        if a is not None:
+            require(np.isfinite(a) and np.isfinite(b), f"Nonfinite reconstructed loss at {where}")
+            difference = abs(a-b)
+            require(difference <= INFERENCE_ATOL + INFERENCE_RTOL * abs(a),
+                    f"Reconstructed loss drift exceeds bound at {where}: expected={a!r}, observed={b!r}")
+            differences.append(float(difference))
+    return {"path": where, "maximum_absolute_loss_difference": max(differences, default=0.0),
+            "saved_probability_array_available": False}
 
 
 def state_digest(state):
@@ -197,6 +238,9 @@ def audit(run):
     counters = Counter()
     exact = 0
     maximum_probability_error = 0.0
+    development_inference_checks = []
+    reconstructed_only_checks = []
+    test_inference_checks = []
     grouped_development = defaultdict(list)
     aggregate = defaultdict(list)
     for row in scores["rows"]:
@@ -210,14 +254,22 @@ def audit(run):
         measured = independent_metrics(recorded["labels"], recorded["probabilities"])
         compare_metrics(row["test"], measured, row["path"] + "/test")
         p = checkpoint_predict(path, parts["test"]["x"], row["student"])
-        error = float(np.max(np.abs(p - recorded["probabilities"])))
-        maximum_probability_error = max(error, maximum_probability_error)
-        require(np.allclose(p, recorded["probabilities"], rtol=1e-5, atol=1e-6), "Checkpoint predictions materially differ")
-        require(np.array_equal(p.argmax(1), recorded["probabilities"].argmax(1)), "Checkpoint decisions changed")
-        exact += int(np.array_equal(p, recorded["probabilities"]))
+        test_check = compare_inference(recorded["probabilities"], p, row["path"] + "/test")
+        test_inference_checks.append(test_check)
+        maximum_probability_error = max(test_check["maximum_absolute_probability_difference"], maximum_probability_error)
+        exact += int(test_check["exact"])
         dev_p = checkpoint_predict(path, parts["dev"]["x"], row["student"])
-        dev_metrics = independent_metrics(parts["dev"]["y"], dev_p)
-        compare_metrics(row["development"], dev_metrics, row["path"] + "/dev")
+        if row["student"] == "mlp":
+            rel = row["path"] + "/development_predictions.npz"
+            require(rel in frozen["files"], "Development probabilities are not sealed")
+            with np.load(safe(root, rel), allow_pickle=False) as stored:
+                saved_dev = stored["probabilities"].copy()
+            dev_metrics = independent_metrics(parts["dev"]["y"], saved_dev)
+            compare_metrics(row["development"], dev_metrics, row["path"] + "/saved_dev")
+            development_inference_checks.append(compare_inference(saved_dev, dev_p, row["path"] + "/dev"))
+        else:
+            dev_metrics = independent_metrics(parts["dev"]["y"], dev_p)
+            reconstructed_only_checks.append(compare_reconstructed_metrics(row["development"], dev_metrics, row["path"] + "/dev"))
         if row["student"] == "mlp":
             model = read(path / "model.json"); a = model["audit"]
             require(a["completed_steps"] == config["student_steps"] == len(a["losses"]), "Incomplete neural student training")
@@ -268,7 +320,8 @@ def audit(run):
             model = read(p); a = model["audit"]
             require(a["completed_steps"] == config["probe_steps"] == len(a["losses"]), "Incomplete probe training")
             predicted = checkpoint_predict(p.parent, parts["dev"]["x"], "mlp")
-            compare_metrics(read(p.parent / "development.json"), independent_metrics(parts["dev"]["y"], predicted), str(p))
+            reconstructed_only_checks.append(compare_reconstructed_metrics(
+                read(p.parent / "development.json"), independent_metrics(parts["dev"]["y"], predicted), str(p.relative_to(root))))
             probe_count += 1
     require(selection_count == len(config["datasets"]) * len(config["split_seeds"]) * len(config["generation_seeds"]), "Replicate count mismatch")
     return {"status": "passed", "reviewer_independent_from_original_author": False,
@@ -282,6 +335,14 @@ def audit(run):
             "neural_students_checked": counters["mlp"], "logistic_students_checked": counters["logistic"],
             "development_probe_checkpoints_checked": probe_count, "development_winners_recomputed": selection_count,
             "test_prediction_arrays_exact": exact, "maximum_checkpoint_probability_error": maximum_probability_error,
+            "saved_development_probability_arrays_strictly_scored": len(development_inference_checks),
+            "development_inference_arrays_exact": sum(int(v["exact"]) for v in development_inference_checks),
+            "inference_tolerances": {"absolute": INFERENCE_ATOL, "relative": INFERENCE_RTOL, "class_decisions_must_match": True},
+            "saved_metric_tolerance": 1e-10,
+            "nonexact_test_inference": [v for v in test_inference_checks if not v["exact"]],
+            "nonexact_development_inference": [v for v in development_inference_checks if not v["exact"]],
+            "reconstructed_only_metrics_count": len(reconstructed_only_checks),
+            "reconstructed_loss_drift": [v for v in reconstructed_only_checks if v["maximum_absolute_loss_difference"] > 1e-10],
             "metric_families_checked": ["accuracy", "balanced_accuracy", "macro_f1", "log_loss", "per_class_loss", "per_class_recall", "confusion_matrix", "n"],
             "environment": {"python": platform.python_version(), "numpy": np.__version__, "torch": torch.__version__},
             "method_means": [{"dataset": k[0], "student": k[1], "method": k[2], "regime": k[3], "conditions": len(v), "balanced_accuracy": float(np.mean(v))} for k,v in sorted(aggregate.items())],

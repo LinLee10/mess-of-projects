@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import numpy as np
-from audit_v2 import AuditFailure, canonical, digest, independent_metrics, verify_manifest, safe, compare_metrics
+from audit_v2 import AuditFailure, canonical, digest, independent_metrics, verify_manifest, safe, compare_metrics, compare_inference, compare_reconstructed_metrics
 
 class IndependentCheckerTests(unittest.TestCase):
     def test_hand_calculated_metrics(self):
@@ -32,6 +32,24 @@ class IndependentCheckerTests(unittest.TestCase):
         original=independent_metrics(np.array([0,1]),np.array([[.9,.1],[.1,.9]]))
         changed=dict(original,balanced_accuracy=.5)
         with self.assertRaises(AuditFailure):compare_metrics(original,changed,'controlled mutation')
+    def test_small_kernel_drift_is_separate_from_saved_metric_integrity(self):
+        saved = np.array([[.8, .2], [.2, .8]])
+        recomputed = saved + np.array([[1e-8, -1e-8], [-1e-8, 1e-8]])
+        result = compare_inference(saved, recomputed, 'controlled numerical perturbation')
+        self.assertFalse(result['exact'])
+        expected = independent_metrics(np.array([0,1]), saved)
+        changed = independent_metrics(np.array([0,1]), recomputed)
+        with self.assertRaises(AuditFailure): compare_metrics(expected, changed, 'saved metrics remain strict')
+    def test_tiny_decision_change_is_rejected_even_inside_tolerance(self):
+        with self.assertRaises(AuditFailure):
+            compare_inference(np.array([[.50000001,.49999999]]), np.array([[.49999999,.50000001]]), 'argmax mutation')
+    def test_large_inference_drift_is_rejected(self):
+        with self.assertRaises(AuditFailure):
+            compare_inference(np.array([[.8,.2]]),np.array([[.79,.21]]),'large drift')
+    def test_reconstructed_loss_bound_does_not_accept_material_errors(self):
+        m=independent_metrics(np.array([0,1]), np.array([[.8,.2],[.2,.8]]))
+        with self.assertRaises(AuditFailure):
+            compare_reconstructed_metrics(m, dict(m,log_loss=m['log_loss']+.001), 'loss mutation')
     def manifest(self,root):
         (root/'data.txt').write_text('original')
         m={'schema_version':1,'files':{'data.txt':digest(root/'data.txt')}}
