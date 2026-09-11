@@ -1,0 +1,11 @@
+{
+  "run_id": "dfa877ba-6790-4b9a-863f-80fe99aaced1",
+  "status": "failed",
+  "error": "BLOCKED",
+  "steps": 28,
+  "observed_duration_seconds": 778,
+  "verdict": null,
+  "counted_as_independent_review": false,
+  "scope_requested": "Read only source review of the published project at commit 41f4036bcb987a83cef0f14d65c6f1093b062874. No code execution or writes were requested.",
+  "interpretation": "Tool failure supplied no usable review. Do not infer a defect in the repository or reviewer approval from this failed attempt."
+}

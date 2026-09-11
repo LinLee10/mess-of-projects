@@ -1,0 +1,12 @@
+{
+  "local_commit": "20a6555ced5df3ebdb290f2210bfcfd6b6a680e9",
+  "remote_published": false,
+  "files": {
+    "synthetic_data_research_extension.zip": {"bytes": 88237637, "sha256": "c346790386c064dc016273e561ca27e3c8fc5cc97354c27f2c4d36be7b1f67ee"},
+    "wine_models_and_synthetic_data.zip": {"bytes": 2400563, "sha256": "5b5a94e7a86b3fc6ab47d3851f18a7ed6a1607645a6f100c30653417b92b302b"},
+    "synthetic_data_findings.pdf": {"bytes": 37130, "sha256": "9a4e2a44784578f4738d5f9e4b0914bfab6afc3e20afe44ded665d766494c349"},
+    "synthetic_data_all_results.csv": {"bytes": 131804, "sha256": "438027d8f3c83831c856eae265b82e64809ca23e775805857494bb8c5f46a482"},
+    "synthetic_data_literature_ledger.md": {"bytes": 18688, "sha256": "2e6551c8d24f2ae0aeb336062452517d9e985a9dc4d6d4377f51d29abfcb0393"},
+    "synthetic_wine_schema_checked.csv": {"bytes": 225115, "sha256": "8fb9e5136f053484fade2da0b63be818735f27094f30251d54f63d6f8b8c2f2a"}
+  }
+}
