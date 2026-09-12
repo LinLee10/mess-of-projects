@@ -1,0 +1,132 @@
+{
+  "fresh_sample_diagnostics": {
+    "class_counts": [
+      357,
+      394,
+      249
+    ],
+    "correlation_columns": 13,
+    "correlation_mean_absolute_error_train": 0.07353320169192652,
+    "exact_internal_duplicate_rate": 0.0,
+    "exact_training_copy_rate": 0.0,
+    "limitations": "Training reference diagnostics favor memorization; distances do not establish privacy or semantic validity",
+    "marginal_wasserstein_train_standardized": 0.13057037465804136,
+    "n": 1000,
+    "nearest_training_distance_median": 1.4683728784853898,
+    "negative_feature_row_fraction": 0.0
+  },
+  "policy": {
+    "dataset": "wine",
+    "deployment_status": "research demonstration only",
+    "experimental_portfolio": "mixture_utility_support",
+    "exported_student_seed": 7,
+    "generation_seed": 101,
+    "recorded_before_final_test_evaluation": true,
+    "sample_count": 1000,
+    "sample_seed": 901,
+    "selection": "Use this replicate's already recorded development ranking only. Export its overall selected student and, separately, its best noncopying synthetic_only generator or portfolio. Exclude bootstrap and real_only only from the latter generator selection. No aggregate selection across overlapping split seeds.",
+    "split_seed": 17
+  },
+  "prediction": {
+    "output": "/home/runner/work/mess-of-projects/mess-of-projects/synthetic-data-lab/models/wine_demo/synthetic_predictions.csv",
+    "rows": 1000,
+    "warning": "Experimental classification, not physical validation"
+  },
+  "privacy": "Reference arrays and learned statistics are retained. No confidentiality guarantee.",
+  "sampling": {
+    "generator": "ddpm",
+    "output": "/home/runner/work/mess-of-projects/mess-of-projects/synthetic-data-lab/models/wine_demo/synthetic_wine_1000.csv",
+    "rows": 1000,
+    "sampling": {
+      "generated": 1000,
+      "label_policy": "Class conditional diffusion; categorical label is an input, not a predicted feature",
+      "requested": 1000,
+      "retained_fraction": 1.0,
+      "reverse_network_calls": 100,
+      "sampling_batches": 1,
+      "status": "completed"
+    }
+  },
+  "scope": "Single fixed representative split, not an independently replicated production model",
+  "selected_noncopying_generator": {
+    "balanced_accuracy": 1.0,
+    "log_loss": 0.012140809977205794,
+    "method": "ddpm_standardized",
+    "regime": "synthetic_only"
+  },
+  "selected_student": {
+    "balanced_accuracy": 1.0,
+    "log_loss": 0.011185786248455277,
+    "method": "ddpm_standardized",
+    "regime": "augment"
+  },
+  "selected_student_test": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "log_loss": 0.003667616938609247,
+    "macro_f1": 1.0,
+    "n": 45,
+    "per_class_loss": [
+      0.0009312344383796224,
+      0.008267609250670976,
+      0.00018810659580369065
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "synthetic_student_test": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "log_loss": 0.0126123490650389,
+    "macro_f1": 1.0,
+    "n": 45,
+    "per_class_loss": [
+      0.0012670313865448225,
+      0.029576251274206686,
+      0.001348142849404827
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "test_selection": false
+}

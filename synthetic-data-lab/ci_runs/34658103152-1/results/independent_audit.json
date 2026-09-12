@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "original": {
+    "candidate_manifest_sha256": "34d69efb3f9311f68c4cfaa4a1585f998f6504d449a53cf78b0717c9c8090095",
+    "sealed_candidate_files": 3695,
+    "sealed_evaluation_files": 1045,
+    "independent_prediction_recomputations": 1044,
+    "independent_metric_checks": 4176,
+    "maximum_metric_errors": {
+      "accuracy": 0.0,
+      "balanced_accuracy": 0.0,
+      "macro_f1": 0.0,
+      "log_loss": 5.551115123125783e-17
+    },
+    "exact_prediction_arrays": 1044,
+    "maximum_reload_probability_error": 0.0,
+    "changed_reload_class_predictions": 0,
+    "inference_comparison_tolerances": {
+      "rtol": 1e-05,
+      "atol": 1e-06
+    },
+    "partition_ID_checks": "passed",
+    "neural_fit_counts": {
+      "generator": 84,
+      "primary": 696,
+      "probe": 96,
+      "logistic": 348
+    },
+    "reviewer_independence": "Same assistant, separate verifier code and process; no external author endorsement"
+  }
+}

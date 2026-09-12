@@ -1,0 +1,13 @@
+{
+  "class_counts": [
+    128,
+    154,
+    102
+  ],
+  "configuration": "ctgan_unpacked",
+  "generation_seed": 202,
+  "rows": 384,
+  "source_real_x_sha256": "99dc378982ba1c5d7b09bedbe73092a3257977a19d2fa893a443b867ec289e26",
+  "x_sha256": "9b66e023090d9cecbc5e038eda4fde777aeed01f03f31a82e259e2d5bd690050",
+  "y_sha256": "e452f280656553654639ed9369dd9440c393912d795f44753563b918ca16ba25"
+}

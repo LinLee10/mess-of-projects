@@ -1,0 +1,64 @@
+{
+  "candidate_pool_size": 1536,
+  "constraints": "No test based tuning. All component generators receive training data only. No paid compute. CPU one thread. A fixed update budget is not a matched FLOP budget. No claims of full paper reproduction.",
+  "datasets": [
+    "wine",
+    "breast_cancer"
+  ],
+  "diffusion_steps": 100,
+  "generation_seeds": [
+    101,
+    202
+  ],
+  "generator_batch_size": 100,
+  "generator_latent": 64,
+  "generator_steps": 1000,
+  "generator_width": 128,
+  "methods": [
+    "bootstrap",
+    "smote",
+    "copula",
+    "ctgan",
+    "tvae",
+    "ddpm",
+    "ctgan_unpacked",
+    "ctgan_one_mode",
+    "ddpm_unconditional",
+    "ddpm_standardized"
+  ],
+  "niche": "Wine cultivar classification from chemical measurements",
+  "portfolio_sources": [
+    "copula",
+    "ctgan",
+    "tvae",
+    "ddpm"
+  ],
+  "portfolios": [
+    "mixture_uniform",
+    "mixture_utility",
+    "mixture_support",
+    "mixture_utility_support"
+  ],
+  "primary_metric": "balanced_accuracy",
+  "primary_student": "mlp",
+  "probe_steps": 150,
+  "regimes": [
+    "synthetic_only",
+    "augment"
+  ],
+  "schema_version": 1,
+  "secondary_scope": "Public breast cancer benchmark as a nonclinical replication domain",
+  "secondary_student": "logistic",
+  "selection": "Development balanced accuracy, then lower development log loss, then stable lexical method order",
+  "split_seeds": [
+    17,
+    29,
+    41
+  ],
+  "student_seeds": [
+    7,
+    11
+  ],
+  "student_steps": 250,
+  "student_synthetic_size": 384
+}

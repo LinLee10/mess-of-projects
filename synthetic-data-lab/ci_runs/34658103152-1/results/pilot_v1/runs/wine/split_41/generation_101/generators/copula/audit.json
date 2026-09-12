@@ -1,0 +1,40 @@
+{
+  "configuration_name": "copula",
+  "diagnostics": {
+    "class_counts": [
+      128,
+      154,
+      102
+    ],
+    "correlation_columns": 13,
+    "correlation_mean_absolute_error_train": 0.07427500613806665,
+    "exact_internal_duplicate_rate": 0.0,
+    "exact_training_copy_rate": 0.0,
+    "limitations": "Training reference diagnostics favor memorization; distances do not establish privacy or semantic validity",
+    "marginal_wasserstein_train_standardized": 0.054550152518897846,
+    "n": 384,
+    "nearest_training_distance_median": 2.0240397508083294,
+    "negative_feature_row_fraction": 0.0
+  },
+  "fit_seconds": 0.0033822530000406914,
+  "mechanisms": [
+    "class conditional empirical marginals",
+    "Gaussian copula",
+    "Ledoit Wolf covariance shrinkage"
+  ],
+  "method": "copula",
+  "neural_model": false,
+  "pool_x_sha256": "f470907f79fb216c62defea340fd42bde4dbeae64e79c4e036d0d52ffdd92610",
+  "pool_y_sha256": "312d53febc7f117692db437625d118967f53caa16f64dbaa3b5f7be0973c2d83",
+  "real_model_training": true,
+  "sampling": {
+    "generated": 1536,
+    "requested": 1536,
+    "retained_fraction": 1.0,
+    "status": "completed"
+  },
+  "seed": 101,
+  "total_fit_and_sample_seconds": 0.01196372300000803,
+  "training_x_sha256": "4eac103e345e56b0b5052e2a7d5feda73baba1d6d0946edc84f846c06ba216c3",
+  "training_y_sha256": "bef0bab550499f71032f40142d71e8816beda42c50549a47032f8baccb7d1cbf"
+}

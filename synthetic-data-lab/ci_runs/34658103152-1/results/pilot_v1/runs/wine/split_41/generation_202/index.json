@@ -1,0 +1,3638 @@
+{
+  "generation_seed": 202,
+  "rows": [
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.02822075141251882,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.030507064229304336,
+          0.043439563143255054,
+          0.001752661944191276
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "real_only",
+      "path": "runs/wine/split_41/generation_202/students/real_only/real_only/7",
+      "regime": "real_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.08897390629261596,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.1880902165119325,
+          0.06759167784306223,
+          0.0010929936127571415
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "real_only",
+      "path": "runs/wine/split_41/generation_202/students/real_only/real_only/11",
+      "regime": "real_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13800747644898026,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.09778864942393609,
+          0.2308096115117502,
+          0.04280494382639216
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "real_only",
+      "path": "runs/wine/split_41/generation_202/students/real_only/real_only/logistic",
+      "regime": "real_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.041538277427158786,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.04903788727605796,
+          0.06073266376014936,
+          0.002514153316074474
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.0938069246064979,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.2081712025972581,
+          0.06337372514918764,
+          0.0013688951069402767
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.14850295830391316,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.10259996946914174,
+          0.24772198205680127,
+          0.05026590770858569
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.026733786586810734,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.024633588494550464,
+          0.044329978796009174,
+          0.001928840818597945
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.09260796990252511,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.21147771798760703,
+          0.05794067137924021,
+          0.0012496310569792334
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.14261585041781683,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.10086133844561962,
+          0.2370821880448478,
+          0.046701506519565096
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "bootstrap",
+      "path": "runs/wine/split_41/generation_202/students/bootstrap/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.049460876863447835,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.03622191783143089,
+          0.09044964737902117,
+          0.001881517100576714
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9458874458874459,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            1
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.1062910085616472,
+        "macro_f1": 0.9384479717813051,
+        "n": 34,
+        "per_class_loss": [
+          0.1914058846005734,
+          0.1069629103855355,
+          0.0012165350102444302
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.1337560154113209,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.10584657354361893,
+          0.22175440090192713,
+          0.03098117804201371
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.03298753463574581,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.039028567342618954,
+          0.048335639509569664,
+          0.0017292204125082108
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.0827413396148742,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.17703348533263433,
+          0.06118142802330639,
+          0.0010330239911617587
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13430584625458808,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.09968305401983762,
+          0.22331778270568445,
+          0.03815958006202222
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "smote",
+      "path": "runs/wine/split_41/generation_202/students/smote/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.016697897389146562,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.02349350232166133,
+          0.020070392204720896,
+          0.003146054980735101
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.030002908150837792,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.05418074261783059,
+          0.02653808765332805,
+          0.005841942353972836
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.09486638473060874,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.07561464712301048,
+          0.12697364860232427,
+          0.06845165356167134
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.014289232849015591,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.015096099720611213,
+          0.02207502389446684,
+          0.001191831713030107
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.035148515082140064,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.06951361328481097,
+          0.029759486641769972,
+          0.0015296615194513368
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10886978083596771,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.08094209226300522,
+          0.1696362808147651,
+          0.04847795579145928
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "copula",
+      "path": "runs/wine/split_41/generation_202/students/copula/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9629629629629629,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.11184918207504208,
+        "macro_f1": 0.968897903989182,
+        "n": 34,
+        "per_class_loss": [
+          0.054481685478276365,
+          0.07810562420159047,
+          0.23445499016312488
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9021164021164022,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            2,
+            7
+          ]
+        ],
+        "log_loss": 0.17578630164916,
+        "macro_f1": 0.9066937119675457,
+        "n": 34,
+        "per_class_loss": [
+          0.06496037908098931,
+          0.10715758448561137,
+          0.4179959892646666
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          0.7777777777777778
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9326599326599326,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.22084598870652863,
+        "macro_f1": 0.9422969187675069,
+        "n": 34,
+        "per_class_loss": [
+          0.21624763004867698,
+          0.19859694169238845,
+          0.26107583353256547
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          0.8888888888888888
+        ]
+      },
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9629629629629629,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.07650991442628557,
+        "macro_f1": 0.968897903989182,
+        "n": 34,
+        "per_class_loss": [
+          0.05052702383578118,
+          0.014557546680456576,
+          0.2046371305304138
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9629629629629629,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.1102401390318736,
+        "macro_f1": 0.968897903989182,
+        "n": 34,
+        "per_class_loss": [
+          0.05171655580980699,
+          0.016738879814554648,
+          0.3272153661968957
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.12996405850991585,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.10958998478017695,
+          0.11451652476003209,
+          0.17889520112386034
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "ctgan",
+      "path": "runs/wine/split_41/generation_202/students/ctgan/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.7941176470588235,
+        "balanced_accuracy": 0.7936507936507936,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            2,
+            10,
+            2
+          ],
+          [
+            0,
+            3,
+            6
+          ]
+        ],
+        "log_loss": 0.5111398759153759,
+        "macro_f1": 0.787763253449528,
+        "n": 34,
+        "per_class_loss": [
+          0.02993225766056726,
+          1.0239474124099235,
+          0.3015819081241792
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7142857142857143,
+          0.6666666666666666
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.3557450835934528,
+        "macro_f1": 0.9146783625730994,
+        "n": 34,
+        "per_class_loss": [
+          0.022490784063321043,
+          0.7804653377415269,
+          0.1023799432332759
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            11,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.25124972599099094,
+        "macro_f1": 0.9121739130434783,
+        "n": 34,
+        "per_class_loss": [
+          0.09480425208365477,
+          0.4693799836276704,
+          0.10314712666512243
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.8823529411764706,
+        "balanced_accuracy": 0.9047619047619048,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            2,
+            10,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.17710489028990237,
+        "macro_f1": 0.8833333333333333,
+        "n": 34,
+        "per_class_loss": [
+          0.047317001548005715,
+          0.3278742276061434,
+          0.10120445181584561
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7142857142857143,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.16714130250247394,
+        "macro_f1": 0.9146783625730994,
+        "n": 34,
+        "per_class_loss": [
+          0.03393102900470911,
+          0.31832243615748107,
+          0.0947832066475088
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            11,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.18907937172221423,
+        "macro_f1": 0.9121739130434783,
+        "n": 34,
+        "per_class_loss": [
+          0.0873816465055191,
+          0.34122657138387696,
+          0.07670316973558841
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "method": "tvae",
+      "path": "runs/wine/split_41/generation_202/students/tvae/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10494079677505545,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.07454451786228602,
+          0.19609736084973844,
+          0.0002927046633778642
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9458874458874459,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.19053673616782435,
+        "macro_f1": 0.9458874458874459,
+        "n": 34,
+        "per_class_loss": [
+          0.21443174790166555,
+          0.29405377553448736,
+          0.0003052161449868202
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.15911285852149473,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.12579887362330747,
+          0.2764377629615337,
+          0.017324544268107478
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.06504331208522299,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.06562316883991232,
+          0.10619241309182417,
+          0.00032488559700082
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9458874458874459,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.15300805462463674,
+        "macro_f1": 0.9458874458874459,
+        "n": 34,
+        "per_class_loss": [
+          0.23083425692985138,
+          0.19002907341218936,
+          0.00029888924873699475
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.14461475696397835,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.1157726522184849,
+          0.24152406342802116,
+          0.029118408264403803
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "ddpm",
+      "path": "runs/wine/split_41/generation_202/students/ddpm/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            3
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.2906798466753055,
+        "macro_f1": 0.9123809523809524,
+        "n": 34,
+        "per_class_loss": [
+          0.013385660914122976,
+          0.6953928655584074,
+          4.137767637010454e-05
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            3
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.29802472921102396,
+        "macro_f1": 0.9123809523809524,
+        "n": 34,
+        "per_class_loss": [
+          0.00585447034895776,
+          0.7191350564478961,
+          6.120322952598069e-05
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            3
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.20258190650429161,
+        "macro_f1": 0.9123809523809524,
+        "n": 34,
+        "per_class_loss": [
+          0.02954587581278464,
+          0.4640629574697936,
+          0.0073220869586858185
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9523809523809524,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.12003163563483454,
+        "macro_f1": 0.9410256410256411,
+        "n": 34,
+        "per_class_loss": [
+          0.01408712487526842,
+          0.28030747695716157,
+          0.0002013956173512401
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9523809523809524,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.15022998777311297,
+        "macro_f1": 0.9410256410256411,
+        "n": 34,
+        "per_class_loss": [
+          0.007933662835403553,
+          0.3585073791707362,
+          0.0001606649673437467
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.12119454667004381,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.03993414563653915,
+          0.24948123597567837,
+          0.020955742346673672
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "ctgan_unpacked",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_unpacked/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.08123549429756487,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.0016014609310966083,
+          0.1945014081368721,
+          0.0023745579954369887
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10131569218126561,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.00013122243998246795,
+          0.24343624634145122,
+          0.0039091820603229625
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9285714285714285,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.18493635254180388,
+        "macro_f1": 0.9146783625730994,
+        "n": 34,
+        "per_class_loss": [
+          0.034955276946523964,
+          0.3740824919363506,
+          0.07401922810007314
+        ],
+        "per_class_recall": [
+          1.0,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.03712940722998481,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.004448030606315558,
+          0.08343781934477164,
+          0.00503800425813441
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.04907138855713413,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.001605344642739596,
+          0.10905476473975494,
+          0.013777968168428441
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.12500771564801372,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.0452065211528004,
+          0.21962708089990235,
+          0.07535682963922555
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "ctgan_one_mode",
+      "path": "runs/wine/split_41/generation_202/students/ctgan_one_mode/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.38235294117647056,
+        "balanced_accuracy": 0.35497835497835495,
+        "confusion_matrix": [
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            5,
+            6,
+            3
+          ],
+          [
+            2,
+            7,
+            0
+          ]
+        ],
+        "log_loss": 1.6426977204692734,
+        "macro_f1": 0.31569892473118283,
+        "n": 34,
+        "per_class_loss": [
+          0.9016794499112176,
+          1.4122227044057056,
+          2.9069034094724464
+        ],
+        "per_class_recall": [
+          0.6363636363636364,
+          0.42857142857142855,
+          0.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.4411764705882353,
+        "balanced_accuracy": 0.4158249158249158,
+        "confusion_matrix": [
+          [
+            7,
+            3,
+            1
+          ],
+          [
+            4,
+            7,
+            3
+          ],
+          [
+            1,
+            7,
+            1
+          ]
+        ],
+        "log_loss": 1.3203857430855668,
+        "macro_f1": 0.40105523275228744,
+        "n": 34,
+        "per_class_loss": [
+          0.8241594163022831,
+          1.3102173210445596,
+          1.9427021323289244
+        ],
+        "per_class_recall": [
+          0.6363636363636364,
+          0.5,
+          0.1111111111111111
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.4411764705882353,
+        "balanced_accuracy": 0.4292929292929293,
+        "confusion_matrix": [
+          [
+            5,
+            5,
+            1
+          ],
+          [
+            4,
+            7,
+            3
+          ],
+          [
+            2,
+            4,
+            3
+          ]
+        ],
+        "log_loss": 1.0826168973947679,
+        "macro_f1": 0.43207070707070705,
+        "n": 34,
+        "per_class_loss": [
+          1.183863902381454,
+          0.9148853395290271,
+          1.2197863146466374
+        ],
+        "per_class_recall": [
+          0.45454545454545453,
+          0.5,
+          0.3333333333333333
+        ]
+      },
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.8529411764705882,
+        "balanced_accuracy": 0.8547378547378548,
+        "confusion_matrix": [
+          [
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.508092905299736,
+        "macro_f1": 0.8565638233514822,
+        "n": 34,
+        "per_class_loss": [
+          0.6062250490081788,
+          0.4598909119264504,
+          0.463134497125639
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          0.8571428571428571,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.6470588235294118,
+        "balanced_accuracy": 0.6219336219336219,
+        "confusion_matrix": [
+          [
+            9,
+            2,
+            0
+          ],
+          [
+            1,
+            10,
+            3
+          ],
+          [
+            1,
+            5,
+            3
+          ]
+        ],
+        "log_loss": 0.6768181802049824,
+        "macro_f1": 0.6211143695014663,
+        "n": 34,
+        "per_class_loss": [
+          0.6625800242595763,
+          0.555511455952722,
+          0.8829197196417727
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          0.7142857142857143,
+          0.3333333333333333
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9393939393939394,
+        "confusion_matrix": [
+          [
+            9,
+            1,
+            1
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.49518293122916157,
+        "macro_f1": 0.9376285541439806,
+        "n": 34,
+        "per_class_loss": [
+          0.5882132010820634,
+          0.47366991059027513,
+          0.41494396684721613
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "ddpm_unconditional",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_unconditional/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.0700768129245749,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.07586122420293072,
+          0.11039644759520705,
+          0.000287545207823371
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9458874458874459,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            1
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.15219072959832766,
+        "macro_f1": 0.9384479717813051,
+        "n": 34,
+        "per_class_loss": [
+          0.2348717916011865,
+          0.1847881214711373,
+          0.00042904423712976185
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.14747701864010154,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.12448265487509107,
+          0.24668979913136915,
+          0.021250249144253778
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.05448916568465595,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.05924011096630046,
+          0.08559782353986255,
+          0.0002912092323246381
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.09794282891924953,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.20600525702938455,
+          0.07580237205897122,
+          0.0003072385672952128
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13839534327454625,
+        "macro_f1": 0.9731615673644659,
+        "n": 34,
+        "per_class_loss": [
+          0.11027507461657836,
+          0.22950391512217871,
+          0.03104011542685653
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "ddpm_standardized",
+      "path": "runs/wine/split_41/generation_202/students/ddpm_standardized/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.8529411764705882,
+        "balanced_accuracy": 0.8679653679653679,
+        "confusion_matrix": [
+          [
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            11,
+            3
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.303087894651918,
+        "macro_f1": 0.8573192239858907,
+        "n": 34,
+        "per_class_loss": [
+          0.18068171282838208,
+          0.5741331435377596,
+          0.03106950750270833
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.8823529411764706,
+        "balanced_accuracy": 0.8917748917748917,
+        "confusion_matrix": [
+          [
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.3411208611214209,
+        "macro_f1": 0.8857142857142857,
+        "n": 34,
+        "per_class_loss": [
+          0.19355485749456702,
+          0.6183975016083163,
+          0.09016009146351621
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9523809523809524,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.16721074862253785,
+        "macro_f1": 0.9410256410256411,
+        "n": 34,
+        "per_class_loss": [
+          0.1172250812969477,
+          0.26006309808292544,
+          0.08386735397098975
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9220779220779219,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            1,
+            12,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.18233161082259478,
+        "macro_f1": 0.9151160730108098,
+        "n": 34,
+        "per_class_loss": [
+          0.12978044484047624,
+          0.3374786089601648,
+          0.005221038808964112
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9220779220779219,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.17048525915943716,
+        "macro_f1": 0.9137566137566138,
+        "n": 34,
+        "per_class_loss": [
+          0.16392403235080497,
+          0.2541540966775565,
+          0.048353011341802
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13281359394912864,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.11118475650887062,
+          0.193918890693076,
+          0.06419615588552602
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "mixture_uniform",
+      "path": "runs/wine/split_41/generation_202/students/mixture_uniform/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9153439153439153,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            1
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.28204979863672447,
+        "macro_f1": 0.9114331723027375,
+        "n": 34,
+        "per_class_loss": [
+          0.008895742418211122,
+          0.41124423530261633,
+          0.4149356325346312
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9117647058823529,
+        "balanced_accuracy": 0.9153439153439153,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            1
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.2679365369763107,
+        "macro_f1": 0.9114331723027375,
+        "n": 34,
+        "per_class_loss": [
+          0.007678090001458585,
+          0.47100562013074815,
+          0.2701449539275604
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.1302922696335888,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.08248492637620018,
+          0.17809761811162542,
+          0.11435959153789568
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9391534391534391,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            1,
+            8
+          ]
+        ],
+        "log_loss": 0.12125135826977011,
+        "macro_f1": 0.9391534391534391,
+        "n": 34,
+        "per_class_loss": [
+          0.01692520591131892,
+          0.14516058484429645,
+          0.21156896981416956
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          0.8888888888888888
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9523809523809524,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13202595562806668,
+        "macro_f1": 0.9423223610866631,
+        "n": 34,
+        "per_class_loss": [
+          0.00684109720486962,
+          0.26808780836839513,
+          0.07337790054924107
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10441967012434522,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.07930411808518294,
+          0.13190410594589427,
+          0.09236288911646731
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "mixture_utility",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10192442356012361,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.17899394434758034,
+          0.09701801566819364,
+          0.015360532651789886
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.08310025842297836,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.08478164484461051,
+          0.052075379395710955,
+          0.12930615350562175
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.15096914935776334,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.10564736778942783,
+          0.23949636304200173,
+          0.06865343887691368
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9393939393939394,
+        "confusion_matrix": [
+          [
+            9,
+            2,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10301941137683017,
+        "macro_f1": 0.9444444444444445,
+        "n": 34,
+        "per_class_loss": [
+          0.20695860494434923,
+          0.07597391002809362,
+          0.01805339911456372
+        ],
+        "per_class_recall": [
+          0.8181818181818182,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9696969696969697,
+        "confusion_matrix": [
+          [
+            10,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.07935635632191541,
+        "macro_f1": 0.9726327312534209,
+        "n": 34,
+        "per_class_loss": [
+          0.1577888767379651,
+          0.05163792763030016,
+          0.02661194266703405
+        ],
+        "per_class_recall": [
+          0.9090909090909091,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.13470544143949284,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.09576149546427427,
+          0.21496721201914118,
+          0.05745195450752914
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "mixture_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_support/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.07467636241228551,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.0006622704625193221,
+          0.1529683699391687,
+          0.043350463086848076
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/synthetic_only/7",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 0.9411764705882353,
+        "balanced_accuracy": 0.9523809523809524,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            2
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.09035099982772644,
+        "macro_f1": 0.9410256410256411,
+        "n": 34,
+        "per_class_loss": [
+          0.00911825303143897,
+          0.199733698116681,
+          0.019484604129259574
+        ],
+        "per_class_recall": [
+          1.0,
+          0.8571428571428571,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/synthetic_only/11",
+      "regime": "synthetic_only",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 0.9705882352941176,
+        "balanced_accuracy": 0.9761904761904763,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.1203184736747301,
+        "macro_f1": 0.9701104613385314,
+        "n": 34,
+        "per_class_loss": [
+          0.06917366581562806,
+          0.1836615759746761,
+          0.08429507970260537
+        ],
+        "per_class_recall": [
+          1.0,
+          0.9285714285714286,
+          1.0
+        ]
+      },
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/synthetic_only/logistic",
+      "regime": "synthetic_only",
+      "student": "logistic",
+      "student_seed": null
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.031506435949582495,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.002923150753026374,
+          0.04066309943303199,
+          0.05219786354889628
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "f2f10bf13fa99e3ba9db93267918dddd85730d71b914afab8c266732f9248a46",
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/augment/7",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 7
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.02702742036808671,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.020212518174685886,
+          0.03374678565088922,
+          0.024904399275661585
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "initial_sha256": "9fb7fc187821e81d3368ea58cb45e5c431f7c6cd053344938d033fc35c045a73",
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/augment/11",
+      "regime": "augment",
+      "student": "mlp",
+      "student_seed": 11
+    },
+    {
+      "development": {
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "log_loss": 0.10363589448474535,
+        "macro_f1": 1.0,
+        "n": 34,
+        "per_class_loss": [
+          0.0744324807241271,
+          0.1451995180545404,
+          0.07467443019470871
+        ],
+        "per_class_recall": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "method": "mixture_utility_support",
+      "path": "runs/wine/split_41/generation_202/students/mixture_utility_support/augment/logistic",
+      "regime": "augment",
+      "student": "logistic",
+      "student_seed": null
+    }
+  ],
+  "selection": {
+    "balanced_accuracy": 1.0,
+    "log_loss": 0.023350402769992177,
+    "method": "copula",
+    "regime": "synthetic_only"
+  },
+  "split_path": "splits/wine/41",
+  "status": "completed"
+}
