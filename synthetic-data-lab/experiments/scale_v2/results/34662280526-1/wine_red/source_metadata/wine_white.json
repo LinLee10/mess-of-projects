@@ -1,0 +1,38 @@
+{
+  "archive_sha256": "3ed56667f4b828242bd732d7d1dd7f2861e54432239d7fa63877014cbb0304d4",
+  "counts": {
+    "dev": 921,
+    "test": 974,
+    "train": 3003
+  },
+  "credit": "Cortez et al. 2009; UCI 10.24432/C56S3T",
+  "dataset": "wine_white",
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "license": "CC BY 4.0",
+  "original_targets_sha256": "aa77e153175151ee24cd1bfdd300bfb9a637db32fece02864be5012fd0825230",
+  "real_rows_discarded": 0,
+  "source_member": "winequality-white.csv",
+  "source_rows": 4898,
+  "source_url": "https://archive.ics.uci.edu/static/public/186/wine+quality.zip",
+  "source_x_sha256": "948bdd1f34e8dcc5424bb7e343dfa7891a17a826996eb98d887aa21c9d4fbec8",
+  "source_y_sha256": "71412337d8739a63adfe3ee81f8830509661e653e91f23d755cafeb9db8799e9",
+  "split_policy": "Fixed feature-content hash buckets: train 60%, dev 20%, test 20%; no real-row cap; all exact input duplicates stay together",
+  "target_definition": "quality >= 6",
+  "target_names": [
+    "quality_below_6",
+    "quality_at_least_6"
+  ],
+  "unique_feature_rows": 3961
+}

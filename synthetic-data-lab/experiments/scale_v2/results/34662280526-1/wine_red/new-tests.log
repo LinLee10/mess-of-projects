@@ -1,0 +1,22 @@
+test_corrupt_score_is_rejected (test_auditor.AuditorControls.test_corrupt_score_is_rejected) ... ok
+test_hand_counted_truth (test_auditor.AuditorControls.test_hand_counted_truth) ... ok
+test_modified_sealed_file_is_rejected (test_auditor.AuditorControls.test_modified_sealed_file_is_rejected) ... ok
+test_negative_and_fractional_labels_rejected (test_auditor.AuditorControls.test_negative_and_fractional_labels_rejected) ... ok
+test_cycle_covers_every_row_before_repeating (test_scale.ScaleContracts.test_cycle_covers_every_row_before_repeating) ... ok
+test_cycle_is_repeatable (test_scale.ScaleContracts.test_cycle_is_repeatable) ... ok
+test_cycle_refuses_invalid_sizes (test_scale.ScaleContracts.test_cycle_refuses_invalid_sizes) ... ok
+test_geometry_does_not_disguise_invalid_primitives (test_scale.ScaleContracts.test_geometry_does_not_disguise_invalid_primitives) ... ok
+test_geometry_reconstruction_not_class_label_repair (test_scale.ScaleContracts.test_geometry_reconstruction_not_class_label_repair) ... ok
+test_identical_features_remain_in_same_split_even_with_different_labels (test_scale.ScaleContracts.test_identical_features_remain_in_same_split_even_with_different_labels) ... ok
+test_metrics_known_outcomes (test_scale.ScaleContracts.test_metrics_known_outcomes) ... ok
+test_neural_generators_cover_all_rows (test_scale.ScaleContracts.test_neural_generators_cover_all_rows) ... ok
+test_partition_has_no_cap_or_unused_rows (test_scale.ScaleContracts.test_partition_has_no_cap_or_unused_rows) ... ok
+test_partition_is_invariant_to_row_order (test_scale.ScaleContracts.test_partition_is_invariant_to_row_order) ... ok
+test_probabilities_and_labels_fail_closed (test_scale.ScaleContracts.test_probabilities_and_labels_fail_closed) ... ok
+test_selection_uses_dev_only (test_scale.ScaleContracts.test_selection_uses_dev_only) ... ok
+test_student_uses_all_rows_and_roundtrips (test_scale.ScaleContracts.test_student_uses_all_rows_and_roundtrips) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.112s
+
+OK

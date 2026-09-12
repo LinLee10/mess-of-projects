@@ -1,0 +1,166 @@
+{"stage": "students", "method": "real_only", "regime": "real_only", "domain": "wine_red", "seed": 0, "size": 1}
+{"stage": "students", "method": "target_real_only", "regime": "real_only", "domain": "wine_white", "seed": 0, "size": 1}
+{"stage": "students", "method": "source_real_transfer", "regime": "source_only", "domain": "wine_white", "seed": 0, "size": 1}
+{"stage": "generator_start", "method": "smote", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "smote", "seed": 101, "seconds": 0.0854296060000479}
+{"stage": "generator_start", "method": "copula", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "copula", "seed": 101, "seconds": 0.03215828300005796}
+{"stage": "generator_start", "method": "ctgan", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan", "seed": 101, "seconds": 14.24598186500009}
+{"stage": "generator_start", "method": "tvae", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "tvae", "seed": 101, "seconds": 6.115313851999986}
+{"stage": "generator_start", "method": "ddpm", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm", "seed": 101, "seconds": 8.170539769000015}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 101, "seconds": 15.144816715999923}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 101, "seconds": 9.101483800999972}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 101, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 101, "seconds": 4.292769185999987}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 101, "size": 3}
+{"stage": "students", "method": "copula", "regime": "source_only", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "target_anchored", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "source_only", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "target_anchored", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "source_only", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "target_anchored", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 101, "size": 1}
+{"stage": "generator_start", "method": "smote", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "smote", "seed": 202, "seconds": 0.08318672699999752}
+{"stage": "generator_start", "method": "copula", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "copula", "seed": 202, "seconds": 0.03157175000001189}
+{"stage": "generator_start", "method": "ctgan", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan", "seed": 202, "seconds": 13.133200361000036}
+{"stage": "generator_start", "method": "tvae", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "tvae", "seed": 202, "seconds": 5.816980580999939}
+{"stage": "generator_start", "method": "ddpm", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm", "seed": 202, "seconds": 4.228660314999956}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 202, "seconds": 14.243739807999987}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 202, "seconds": 8.80676026499998}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 202, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 202, "seconds": 4.223460480999961}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 202, "size": 3}
+{"stage": "students", "method": "copula", "regime": "source_only", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "target_anchored", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "source_only", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "target_anchored", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "source_only", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "target_anchored", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 202, "size": 1}
+{"stage": "generator_start", "method": "smote", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "smote", "seed": 303, "seconds": 0.08275985599993874}
+{"stage": "generator_start", "method": "copula", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "copula", "seed": 303, "seconds": 0.031139762999941922}
+{"stage": "generator_start", "method": "ctgan", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan", "seed": 303, "seconds": 13.154595557999983}
+{"stage": "generator_start", "method": "tvae", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "tvae", "seed": 303, "seconds": 5.876307340000039}
+{"stage": "generator_start", "method": "ddpm", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm", "seed": 303, "seconds": 4.2260808609999}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 303, "seconds": 14.445874736000178}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 303, "seconds": 8.73668483099982}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 303, "real_rows": 1004}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 303, "seconds": 4.202174685000045}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "wine_red", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "wine_red", "seed": 303, "size": 3}
+{"stage": "students", "method": "copula", "regime": "source_only", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "target_anchored", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "source_only", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "target_anchored", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "source_only", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "target_anchored", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "synthetic_replacement", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_hop_2", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_hop_3", "regime": "target_anchor_each_hop", "domain": "wine_white", "seed": 303, "size": 1}
+{"stage": "FROZEN", "candidate_manifest": "db042555f2dd233d5ee9c543ad6bf631c1ef198f364acc21a3ebf018683cb13f", "students": 351, "failures": 0}
