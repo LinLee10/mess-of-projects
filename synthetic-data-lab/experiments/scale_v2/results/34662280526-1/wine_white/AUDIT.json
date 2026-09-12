@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "stored_conditions_checked": 351,
+  "source_partitions_checked": 2,
+  "generator_coverage_checks": 18,
+  "neural_student_coverage_checks": 234,
+  "checkpoint_reloads": 351,
+  "neural_arrays_exact": 234,
+  "maximum_neural_reload_difference": 0.0,
+  "candidate_manifest": "49c7a8e8a88a93387f0caeddc9a793fe05cc5c611ab733d81080b708060a770d",
+  "evaluation_manifest": "4f5c49d19a54c30ad6a1fd2576980472b5e62fec7a89a498424bfe4328dcdb55",
+  "candidate_files_checked": 1432,
+  "evaluation_files_checked": 353,
+  "production_modules_imported": false,
+  "independent_author": false,
+  "limits": [
+    "Artifact consistency is not proof of distributional adequacy",
+    "Inference reload is not complete retraining",
+    "Trees reload through sklearn; neural inference is separately reconstructed",
+    "All explicit failed methods remain in the candidate index"
+  ]
+}
