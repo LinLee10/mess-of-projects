@@ -1,0 +1,59 @@
+test_all_neural_generators_change_weights_and_sample (test_contracts.ActualTrainingContracts.test_all_neural_generators_change_weights_and_sample) ... ok
+test_baselines_are_real_fitted_samplers (test_contracts.ActualTrainingContracts.test_baselines_are_real_fitted_samplers) ... ok
+test_sampling_budget_never_fabricates_requested_class (test_contracts.ActualTrainingContracts.test_sampling_budget_never_fabricates_requested_class) ... ok
+test_student_equal_initialization_and_checkpoint_roundtrip (test_contracts.ActualTrainingContracts.test_student_equal_initialization_and_checkpoint_roundtrip) ... ok
+test_array_hash_has_shape_and_dtype (test_contracts.DataContracts.test_array_hash_has_shape_and_dtype) ... ok
+test_missing_seal_blocks_test (test_contracts.DataContracts.test_missing_seal_blocks_test) ... ok
+test_nonfinite_rejected (test_contracts.DataContracts.test_nonfinite_rejected) ... ok
+test_noninteger_labels_rejected (test_contracts.DataContracts.test_noninteger_labels_rejected) ... ok
+test_seal_detects_mutation (test_contracts.DataContracts.test_seal_detects_mutation) ... ok
+test_split_is_disjoint_and_immutable (test_contracts.DataContracts.test_split_is_disjoint_and_immutable) ... ok
+test_wrong_shape_and_missing_class_rejected (test_contracts.DataContracts.test_wrong_shape_and_missing_class_rejected) ... ok
+test_diffusion_posterior_at_zero_is_x0_without_noise (test_contracts.MathContracts.test_diffusion_posterior_at_zero_is_x0_without_noise) ... ok
+test_diffusion_posterior_matches_hand_formula (test_contracts.MathContracts.test_diffusion_posterior_matches_hand_formula) ... ok
+test_diffusion_terminal_distribution_is_close_to_noise (test_contracts.MathContracts.test_diffusion_terminal_distribution_is_close_to_noise) ... ok
+test_mode_transform_column_order_and_constant (test_contracts.MathContracts.test_mode_transform_column_order_and_constant) ... ok
+test_mode_transform_roundtrip (test_contracts.MathContracts.test_mode_transform_roundtrip) ... ok
+test_packed_critic_rejects_remainder (test_contracts.MathContracts.test_packed_critic_rejects_remainder) ... ok
+test_portfolio_exact_class_counts_and_source_identity (test_contracts.MathContracts.test_portfolio_exact_class_counts_and_source_identity) ... ok
+test_support_gate_rejects_copy_and_extreme_outlier (test_contracts.MathContracts.test_support_gate_rejects_copy_and_extreme_outlier) ... ok
+test_utility_weights_are_normalized_and_prior_shrunk (test_contracts.MathContracts.test_utility_weights_are_normalized_and_prior_shrunk) ... ok
+test_portfolio_refuses_path_escape (test_delivery.DeliveryContracts.test_portfolio_refuses_path_escape) ... ok
+test_portfolio_reload_and_reference_integrity (test_delivery.DeliveryContracts.test_portfolio_reload_and_reference_integrity) ... ok
+test_publication_dry_run_has_no_external_calls (test_delivery.DeliveryContracts.test_publication_dry_run_has_no_external_calls) ... ok
+test_publication_never_overwrites_or_copies_secret_files (test_delivery.DeliveryContracts.test_publication_never_overwrites_or_copies_secret_files) ... ok
+test_publication_rejects_unrelated_or_unwritable_repositories (test_delivery.DeliveryContracts.test_publication_rejects_unrelated_or_unwritable_repositories) ... ok
+test_schema_screen_preserves_valid_rows_and_reasons (test_delivery.DeliveryContracts.test_schema_screen_preserves_valid_rows_and_reasons) ... ok
+test_schema_screen_rejects_ambiguous_headers (test_delivery.DeliveryContracts.test_schema_screen_rejects_ambiguous_headers) ... ok
+test_all_saved_generators_reproduce_draws (test_execution.ExecutionContracts.test_all_saved_generators_reproduce_draws) ... ok
+test_changed_candidate_refuses_before_loading_test (test_execution.ExecutionContracts.test_changed_candidate_refuses_before_loading_test) ... ok
+test_conditioned_denoiser_changes_with_class (test_execution.ExecutionContracts.test_conditioned_denoiser_changes_with_class) ... ok
+test_csv_reload_export_and_overwrite_refusal (test_execution.ExecutionContracts.test_csv_reload_export_and_overwrite_refusal) ... ok
+test_evaluation_refuses_before_loading_test (test_execution.ExecutionContracts.test_evaluation_refuses_before_loading_test) ... ok
+test_matched_class_counts_and_no_sampling_substitution (test_execution.ExecutionContracts.test_matched_class_counts_and_no_sampling_substitution) ... ok
+test_unconditional_ablation_ignores_class_input (test_execution.ExecutionContracts.test_unconditional_ablation_ignores_class_input) ... ok
+test_analysis_requires_matching_candidate_and_evaluation_provenance (test_review_contracts.ReviewValidationTests.test_analysis_requires_matching_candidate_and_evaluation_provenance) ... ok
+test_boolean_evaluation_labels_are_not_silently_reinterpreted (test_review_contracts.ReviewValidationTests.test_boolean_evaluation_labels_are_not_silently_reinterpreted) ... ok
+test_complex_features_are_not_silently_projected_to_real (test_review_contracts.ReviewValidationTests.test_complex_features_are_not_silently_projected_to_real) ... ok
+test_evaluation_labels_must_be_one_dimensional (test_review_contracts.ReviewValidationTests.test_evaluation_labels_must_be_one_dimensional) ... ok
+test_fractional_evaluation_labels_are_not_silently_truncated (test_review_contracts.ReviewValidationTests.test_fractional_evaluation_labels_are_not_silently_truncated) ... ok
+test_metrics_match_hand_counted_confusion_matrix (test_review_contracts.ReviewValidationTests.test_metrics_match_hand_counted_confusion_matrix) ... ok
+test_portfolio_prior_must_be_finite (test_review_contracts.ReviewValidationTests.test_portfolio_prior_must_be_finite) ... ok
+test_portfolio_temperature_must_be_finite (test_review_contracts.ReviewValidationTests.test_portfolio_temperature_must_be_finite) ... ok
+test_prediction_csv_duplicate_names_are_rejected_before_output (test_review_contracts.ReviewValidationTests.test_prediction_csv_duplicate_names_are_rejected_before_output) ... ok
+test_ragged_schema_csv_leaves_no_partial_screen (test_review_contracts.ReviewValidationTests.test_ragged_schema_csv_leaves_no_partial_screen) ... ok
+test_support_threshold_must_be_finite (test_review_contracts.ReviewValidationTests.test_support_threshold_must_be_finite) ... ok
+test_unknown_evaluation_class_is_rejected (test_review_contracts.ReviewValidationTests.test_unknown_evaluation_class_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 1.338s
+
+OK
+{
+  "upstream": "Arhaan2/synthetic-data-lab",
+  "pinned_commit": "039fe33a2a9aad00ca9fed3f7f0733be8a912732",
+  "destination": "LinLee10/synthetic-data-lab",
+  "branch": "research/executed-tabular-pilot-v1",
+  "overlay": "extensions/executed_tabular",
+  "publish_requested": false
+}

@@ -1,0 +1,19 @@
+test_empty_manifest_rejected (test_audit_v2.IndependentCheckerTests.test_empty_manifest_rejected) ... ok
+test_fractional_and_boolean_labels_rejected (test_audit_v2.IndependentCheckerTests.test_fractional_and_boolean_labels_rejected) ... ok
+test_hand_calculated_metrics (test_audit_v2.IndependentCheckerTests.test_hand_calculated_metrics) ... ok
+test_invalid_probabilities_rejected (test_audit_v2.IndependentCheckerTests.test_invalid_probabilities_rejected) ... ok
+test_large_inference_drift_is_rejected (test_audit_v2.IndependentCheckerTests.test_large_inference_drift_is_rejected) ... ok
+test_metric_tampering_rejected (test_audit_v2.IndependentCheckerTests.test_metric_tampering_rejected) ... ok
+test_missing_coverage_rejected (test_audit_v2.IndependentCheckerTests.test_missing_coverage_rejected) ... ok
+test_modified_artifact_rejected (test_audit_v2.IndependentCheckerTests.test_modified_artifact_rejected) ... ok
+test_path_traversal_rejected (test_audit_v2.IndependentCheckerTests.test_path_traversal_rejected) ... ok
+test_reconstructed_loss_bound_does_not_accept_material_errors (test_audit_v2.IndependentCheckerTests.test_reconstructed_loss_bound_does_not_accept_material_errors) ... ok
+test_small_kernel_drift_is_separate_from_saved_metric_integrity (test_audit_v2.IndependentCheckerTests.test_small_kernel_drift_is_separate_from_saved_metric_integrity) ... ok
+test_tiny_decision_change_is_rejected_even_inside_tolerance (test_audit_v2.IndependentCheckerTests.test_tiny_decision_change_is_rejected_even_inside_tolerance) ... ok
+test_unknown_class_rejected (test_audit_v2.IndependentCheckerTests.test_unknown_class_rejected) ... ok
+test_wrong_labels_do_not_pass (test_audit_v2.IndependentCheckerTests.test_wrong_labels_do_not_pass) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.005s
+
+OK

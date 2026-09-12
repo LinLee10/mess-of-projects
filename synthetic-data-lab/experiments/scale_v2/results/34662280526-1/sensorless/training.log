@@ -1,0 +1,134 @@
+{"stage": "students", "method": "real_only", "regime": "real_only", "domain": "sensorless", "seed": 0, "size": 1}
+{"stage": "generator_start", "method": "smote", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "smote", "seed": 101, "seconds": 3.842689375999953}
+{"stage": "generator_start", "method": "copula", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "copula", "seed": 101, "seconds": 3.8693965560000265}
+{"stage": "generator_start", "method": "ctgan", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan", "seed": 101, "seconds": 158.54655762100003}
+{"stage": "generator_start", "method": "tvae", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "tvae", "seed": 101, "seconds": 80.99700165799999}
+{"stage": "generator_start", "method": "ddpm", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm", "seed": 101, "seconds": 42.727995735000036}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 101, "seconds": 27.106794765000018}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 101, "seconds": 17.58679503999997}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 101, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 101, "seconds": 27.991392065000014}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 101, "size": 3}
+{"stage": "generator_start", "method": "smote", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "smote", "seed": 202, "seconds": 3.7981583149999096}
+{"stage": "generator_start", "method": "copula", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "copula", "seed": 202, "seconds": 4.011260472999993}
+{"stage": "generator_start", "method": "ctgan", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan", "seed": 202, "seconds": 157.740783514}
+{"stage": "generator_start", "method": "tvae", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "tvae", "seed": 202, "seconds": 81.44320438199998}
+{"stage": "generator_start", "method": "ddpm", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm", "seed": 202, "seconds": 29.00905742100008}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 202, "seconds": 27.313582064000002}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 202, "seconds": 17.970852593000018}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 202, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 202, "seconds": 28.590764964000073}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 202, "size": 3}
+{"stage": "generator_start", "method": "smote", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "smote", "seed": 303, "seconds": 3.841929342999947}
+{"stage": "generator_start", "method": "copula", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "copula", "seed": 303, "seconds": 3.7791545259999566}
+{"stage": "generator_start", "method": "ctgan", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan", "seed": 303, "seconds": 162.67866731799995}
+{"stage": "generator_start", "method": "tvae", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "tvae", "seed": 303, "seconds": 80.07396087400002}
+{"stage": "generator_start", "method": "ddpm", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm", "seed": 303, "seconds": 29.041785317000176}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 303, "seconds": 27.385101286999998}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 303, "seconds": 17.681129409000278}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 303, "real_rows": 35251}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 303, "seconds": 27.99503996600015}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "sensorless", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "sensorless", "seed": 303, "size": 3}
+{"stage": "FROZEN", "candidate_manifest": "de2b8f8457042cfe1c1dcd72b4dc7e7d8a3ab0222525287a606ceb4581daaaee", "students": 255, "failures": 0}
