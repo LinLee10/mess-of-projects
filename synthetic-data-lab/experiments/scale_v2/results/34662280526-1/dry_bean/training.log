@@ -1,0 +1,170 @@
+{"stage": "students", "method": "real_only", "regime": "real_only", "domain": "dry_bean", "seed": 0, "size": 1}
+{"stage": "generator_start", "method": "smote", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "smote", "seed": 101, "seconds": 0.8255456530000629}
+{"stage": "generator_start", "method": "copula", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "copula", "seed": 101, "seconds": 0.33660527699998966}
+{"stage": "generator_start", "method": "ctgan", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan", "seed": 101, "seconds": 39.07838437700002}
+{"stage": "generator_start", "method": "tvae", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "tvae", "seed": 101, "seconds": 15.019642340000019}
+{"stage": "generator_start", "method": "ddpm", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm", "seed": 101, "seconds": 18.773239912999998}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 101, "seconds": 17.93238449399996}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 101, "seconds": 11.770304150000015}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 101, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 101, "seconds": 11.40741376699998}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 101, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 101, "size": 3}
+{"stage": "generator_start", "method": "smote", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "smote", "seed": 202, "seconds": 0.8043379359999108}
+{"stage": "generator_start", "method": "copula", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "copula", "seed": 202, "seconds": 0.3288991929999838}
+{"stage": "generator_start", "method": "ctgan", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan", "seed": 202, "seconds": 38.59570531600002}
+{"stage": "generator_start", "method": "tvae", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "tvae", "seed": 202, "seconds": 15.009267955000041}
+{"stage": "generator_start", "method": "ddpm", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm", "seed": 202, "seconds": 11.504623717000072}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 202, "seconds": 17.838001845000008}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 202, "seconds": 11.615809701999979}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 202, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 202, "seconds": 11.38815190799994}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 202, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 202, "size": 3}
+{"stage": "generator_start", "method": "smote", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "smote", "seed": 303, "seconds": 0.802914722999958}
+{"stage": "generator_start", "method": "copula", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "copula", "seed": 303, "seconds": 0.3292710519999673}
+{"stage": "generator_start", "method": "ctgan", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan", "seed": 303, "seconds": 36.46116454799994}
+{"stage": "generator_start", "method": "tvae", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "tvae", "seed": 303, "seconds": 17.568221537}
+{"stage": "generator_start", "method": "ddpm", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm", "seed": 303, "seconds": 11.446074176000138}
+{"stage": "generator_start", "method": "ctgan_unpacked", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_unpacked", "seed": 303, "seconds": 17.934873028999846}
+{"stage": "generator_start", "method": "ctgan_one_mode", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ctgan_one_mode", "seed": 303, "seconds": 11.643359202999818}
+{"stage": "generator_start", "method": "ddpm_standardized", "seed": 303, "real_rows": 8217}
+{"stage": "generator_complete", "method": "ddpm_standardized", "seed": 303, "seconds": 11.371843949000095}
+{"stage": "students", "method": "smote", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "smote", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "tvae", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_unpacked", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ctgan_one_mode", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_standardized", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_uniform", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_support", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "copula_geometry", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm_geometry", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_primitive_screen", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "mixture_utility_support_geometry", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 1}
+{"stage": "students", "method": "ddpm", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 3}
+{"stage": "students", "method": "ddpm", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "synthetic_only", "domain": "dry_bean", "seed": 303, "size": 3}
+{"stage": "students", "method": "mixture_utility_support", "regime": "augment", "domain": "dry_bean", "seed": 303, "size": 3}
+{"stage": "FROZEN", "candidate_manifest": "8751ceae2e75561f85faa639ed9e86d204b0374115c067fdc279de46c2edc5ff", "students": 363, "failures": 0}

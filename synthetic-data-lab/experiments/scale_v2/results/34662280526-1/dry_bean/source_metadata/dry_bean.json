@@ -1,0 +1,48 @@
+{
+  "archive_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "counts": {
+    "dev": 2746,
+    "test": 2648,
+    "train": 8217
+  },
+  "credit": "Koklu and Ozkan 2020; UCI 10.24432/C50S4B",
+  "dataset": "dry_bean",
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "license": "CC BY 4.0",
+  "original_targets_sha256": "d541127803b20dae915d41fac9dd7af2a4d5ab488d5ea85f4b41bf7109116292",
+  "real_rows_discarded": 0,
+  "source_member": "DryBeanDataset/Dry_Bean_Dataset.arff",
+  "source_rows": 13611,
+  "source_url": "https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip",
+  "source_x_sha256": "d6034752ab961de3c02c5916b674431b6b6eddd4a2c4f39ac4025e5e937b3ee6",
+  "source_y_sha256": "d541127803b20dae915d41fac9dd7af2a4d5ab488d5ea85f4b41bf7109116292",
+  "split_policy": "Fixed feature-content hash buckets: train 60%, dev 20%, test 20%; no real-row cap; all exact input duplicates stay together",
+  "target_definition": "original category",
+  "target_names": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "unique_feature_rows": 13543
+}

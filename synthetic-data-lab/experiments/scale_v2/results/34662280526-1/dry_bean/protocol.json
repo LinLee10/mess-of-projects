@@ -1,0 +1,47 @@
+{
+  "ablations": [
+    "ctgan_unpacked",
+    "ctgan_one_mode",
+    "ddpm_standardized"
+  ],
+  "all_real_training_rows_must_be_seen": true,
+  "constraints": "No test tuning; full source tables; duplicate-safe split; iteration counts are not equal FLOPs; numerical adaptations not paper reproductions",
+  "core_methods": [
+    "smote",
+    "copula",
+    "ctgan",
+    "tvae",
+    "ddpm"
+  ],
+  "dataset": "dry_bean",
+  "generator_batch": 200,
+  "generator_updates": 1000,
+  "portfolios": [
+    "mixture_uniform",
+    "mixture_utility",
+    "mixture_support",
+    "mixture_utility_support"
+  ],
+  "probe_updates": 250,
+  "real_train_rows": 8217,
+  "real_unused_rows": 0,
+  "size_curves": [
+    "1x all methods",
+    "3x ddpm and mixture_utility_support"
+  ],
+  "smoke_only": false,
+  "student_batch": 128,
+  "student_seeds": [
+    7,
+    11
+  ],
+  "student_updates": 578,
+  "synthesis_seeds": [
+    101,
+    202,
+    303
+  ],
+  "test_is_closed_until_all_candidates_frozen": true,
+  "tree_iterations": 100,
+  "version": 2
+}
