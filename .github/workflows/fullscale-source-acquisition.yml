@@ -1,0 +1,64 @@
+name: Acquire complete quality benchmark sources
+on:
+  push:
+    branches: [research/fullscale-quality-20260916]
+    paths: [.github/workflows/fullscale-source-acquisition.yml]
+permissions:
+  contents: read
+jobs:
+  acquire:
+    if: github.repository == 'LinLee10/mess-of-projects'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - name: Retrieve full official archives and record provenance
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir sources
+          python - <<'PY'
+          import datetime,hashlib,json,pathlib,time,urllib.request,zipfile
+          sources = {
+            'beijing': ('https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip',420768,'10.24432/C5RK5G'),
+            'covertype': ('https://archive.ics.uci.edu/static/public/31/covertype.zip',581012,'10.24432/C50K5N'),
+            'electricity': ('https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip',2075259,'10.24432/C58K54')}
+          result={'source_commit':'${{ github.sha }}','source_run':'${{ github.run_id }}','created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'policy':'Complete original archives; no record sampling','sources':{}}
+          failed=False
+          for name,(url,expected,doi) in sources.items():
+              target=pathlib.Path('sources')/(name+'.zip')
+              entry={'url':url,'expected_records':expected,'doi':doi,'license':'CC BY 4.0; retain UCI source attribution'}
+              for attempt in range(3):
+                  try:
+                      h=hashlib.sha256();size=0
+                      request=urllib.request.Request(url,headers={'User-Agent':'SyntheticDataQualityResearch/1.0'})
+                      with urllib.request.urlopen(request,timeout=90) as response,target.open('wb') as out:
+                          entry['resolved_url']=response.url
+                          for block in iter(lambda:response.read(1048576),b''):
+                              size+=len(block)
+                              if size>300000000:raise ValueError('Archive exceeded declared safety bound')
+                              out.write(block);h.update(block)
+                      with zipfile.ZipFile(target) as archive:
+                          bad=archive.testzip()
+                          if bad:raise ValueError('ZIP integrity failed')
+                          entry['members']=[{'name':v.filename,'bytes':v.file_size} for v in archive.infolist()]
+                      entry.update(status='downloaded',bytes=size,sha256=h.hexdigest());break
+                  except Exception as exc:
+                      entry.update(status='failed',error=str(exc));target.unlink(missing_ok=True)
+                      if attempt<2:time.sleep(3*(attempt+1))
+              failed |= entry['status']!='downloaded'
+              result['sources'][name]=entry
+              print(json.dumps({name:entry}),flush=True)
+          pathlib.Path('sources/SOURCE_MANIFEST.json').write_text(json.dumps(result,indent=2)+'\n')
+          if failed:raise SystemExit('At least one complete source acquisition failed')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: complete-official-quality-sources
+          path: sources/
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0
