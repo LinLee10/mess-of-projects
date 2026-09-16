@@ -1,0 +1,23 @@
+name: Pin official generator dependency sources
+on:
+  push:
+    branches: [research/synthetic-data-reviewed-20260911]
+    paths: ['.github/workflows/synthetic-large-dependencies.yml']
+permissions: {contents: read}
+jobs:
+  download:
+    if: github.repository == 'LinLee10/mess-of-projects'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Download generator distributions only
+        run: |
+          mkdir wheelhouse
+          python -m pip download --no-deps ctgan==0.12.1 rdt==1.20.0 -d wheelhouse
+          sha256sum wheelhouse/* > wheelhouse/SHA256SUMS
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: pinned-generator-wheels
+          path: wheelhouse/
+          retention-days: 30
+          if-no-files-found: error
