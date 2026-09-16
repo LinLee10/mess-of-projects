@@ -1,0 +1,59 @@
+name: Verify large synthetic benchmark inputs
+on:
+  push:
+    branches: [research/synthetic-data-reviewed-20260911]
+    paths: ['.github/workflows/synthetic-large-preflight.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.repository == 'LinLee10/mess-of-projects'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check byte identity and archive structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p verified_inputs
+          python - <<'PY'
+          import hashlib, json, os, shutil, zipfile, io, gzip
+          from pathlib import Path
+          root=Path('synthetic-data-lab/data/raw')
+          expected={'beijing_air_quality.zip':'b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4','covertype.zip':'89a975c2457cd48e824238ae43c5a3cb762e42c4b4078d9b44a4514055105f6d'}
+          report={'commit':os.environ['GITHUB_SHA'],'datasets':{}}
+          for name,digest in expected.items():
+              p=root/name
+              actual=hashlib.sha256(p.read_bytes()).hexdigest()
+              if actual!=digest: raise ValueError('Checksum mismatch: '+name)
+              with zipfile.ZipFile(p) as z:
+                  if z.testzip() is not None: raise ValueError('Corrupt archive')
+                  members=z.namelist()
+                  entry={'sha256':actual,'bytes':p.stat().st_size,'members':members}
+                  if name=='covertype.zip':
+                      matches=[n for n in members if n.endswith('covtype.data.gz')]
+                      if len(matches)!=1:raise ValueError('Unexpected Covertype release')
+                      content=gzip.decompress(z.read(matches[0]));lines=content.splitlines()
+                      if len(lines)!=581012 or any(len(r.split(b','))!=55 for r in lines):raise ValueError('Incorrect Covertype dimensions')
+                      entry['rows']=len(lines);entry['columns']=55
+                  else:
+                      nested=[n for n in members if n.endswith('PRSA2017_Data_20130301-20170228.zip')]
+                      if len(nested)!=1:raise ValueError('Unexpected Beijing release')
+                      with zipfile.ZipFile(io.BytesIO(z.read(nested[0]))) as nz:
+                          files=[n for n in nz.namelist() if n.endswith('.csv') and '/._' not in n and '__MACOSX' not in n]
+                          counts={n:len(nz.read(n).splitlines())-1 for n in files}
+                          if len(files)!=12 or set(counts.values())!={35064}:raise ValueError('Incomplete Beijing stations')
+                          entry['rows']=sum(counts.values());entry['station_rows']=counts
+              report['datasets'][name]=entry
+              shutil.copy2(p,Path('verified_inputs')/name)
+          Path('verified_inputs/MANIFEST.json').write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps(report,indent=2))
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: verified-benchmark-inputs
+          path: verified_inputs/
+          retention-days: 30
+          compression-level: 0
+          if-no-files-found: error
