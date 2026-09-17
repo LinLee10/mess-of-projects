@@ -1,0 +1,87 @@
+name: Recover evidence and test checkpoint continuation
+on:
+  push:
+    branches: [research/synthetic-data-reviewed-20260911]
+    paths:
+      - '.github/workflows/synthetic-recovery-gate.yml'
+      - 'synthetic-data-lab/research_control/units/R001/**'
+permissions:
+  contents: read
+concurrency:
+  group: synthetic-recovery-gate
+  cancel-in-progress: false
+jobs:
+  recovery:
+    if: github.repository == 'LinLee10/mess-of-projects'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - name: Inventory retained project evidence and verify raw inputs
+        run: |
+          mkdir recovery_evidence
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,os,zipfile
+          root=Path('synthetic-data-lab');out=Path('recovery_evidence')
+          h=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+          expected={'beijing_air_quality.zip':'b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4','covertype.zip':'89a975c2457cd48e824238ae43c5a3cb762e42c4b4078d9b44a4514055105f6d'}
+          checks=[]
+          for name,digest in expected.items():
+              p=root/'data/raw'/name
+              if h(p)!=digest:raise ValueError('Raw digest mismatch')
+              with zipfile.ZipFile(p) as z:
+                  if z.testzip() is not None:raise ValueError('Archive CRC failure')
+              checks.append({'name':name,'sha256':digest,'bytes':p.stat().st_size})
+          files=[p for p in root.rglob('*') if p.is_file() and not p.is_symlink()]
+          inventory=[{'path':str(p),'sha256':h(p),'bytes':p.stat().st_size} for p in sorted(files)]
+          (out/'inventory.json').write_text(json.dumps(inventory,indent=2))
+          (out/'inputs.json').write_text(json.dumps(checks,indent=2))
+          (out/'RUN.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'historical_final_test_exposure':'unknown; this job does not score final tests'},indent=2))
+          with zipfile.ZipFile(out/'retained_source.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in files:
+                  rel=p.relative_to(root)
+                  if rel.parts[0] in ('ci_runs','data'):continue
+                  if rel.parts[:2]==('review','runs'):continue
+                  if p.suffix in ('.py','.json','.md','.toml','.txt','.yml') or p.name in ('LICENSE','.gitignore','AGENTS.md'):
+                      z.write(p,str(rel))
+          PY
+      - name: Install recorded CPU dependencies
+        run: |
+          python -m pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install numpy==2.3.5 scipy==1.17.0 scikit-learn==1.8.0
+      - name: Preserve original contracts
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd synthetic-data-lab
+          PYTHONPATH=src python -m unittest discover -s tests -v 2>&1 | tee ../recovery_evidence/original_tests.log
+      - name: Interrupt and independently check continuation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python synthetic-data-lab/research_control/units/R001/check_checkpoint.py --worker synthetic-data-lab/research_control/units/R001/checkpoint_unit.py --output recovery_evidence/R001 2>&1 | tee recovery_evidence/checkpoint.log
+      - name: Seal outputs
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          r=Path('recovery_evidence');files={str(p.relative_to(r)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(r.rglob('*')) if p.is_file()}
+          (r/'ARTIFACT_SHA256.json').write_text(json.dumps(files,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: recovery-gate-${{ github.run_id }}-${{ github.run_attempt }}
+          path: recovery_evidence/
+          retention-days: 90
+          if-no-files-found: error
