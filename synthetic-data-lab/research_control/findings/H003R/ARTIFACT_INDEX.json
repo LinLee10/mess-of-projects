@@ -1,0 +1,15 @@
+{
+  "unit": "H003R",
+  "status": "verified_development_only",
+  "source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
+  "orchestration_commit": "aa6858f7fbbcdf9196af9dcdcd7b6debf6229b69",
+  "protocol_commit": "58771a5a15123c7582ae4d9796a0774f54378e2c",
+  "artifacts": [
+    {"archive":"h003r-seed29.zip","archive_sha256":"4cd114442ef7c24b81985912019a29d576310a42cb8de5851ac1030cb8a5f2d8","archive_bytes":148056260,"internal_files_checked":103,"status":"verified","artifact_id":10523406502,"run_id":35283101267,"seed":29,"expires":"2026-12-16","hosted_audit":"passed","fresh_student_models_reloaded":6},
+    {"archive":"h003r-seed41.zip","archive_sha256":"45872b2fb400644bf256b20cd1bf20f2dafb5bcfffed81eda730f08cd7f2d90a","archive_bytes":148039228,"internal_files_checked":103,"status":"verified","artifact_id":10523321584,"run_id":35283101267,"seed":41,"expires":"2026-12-16","hosted_audit":"passed","fresh_student_models_reloaded":6}
+  ],
+  "local_control_tests": 20,
+  "original_tests_each_job": 31,
+  "final_test_scored": false,
+  "same_assistant_authorship": true
+}
