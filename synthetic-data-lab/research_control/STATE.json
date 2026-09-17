@@ -1,32 +1,37 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "repository": "LinLee10/mess-of-projects",
   "branch": "research/synthetic-data-reviewed-20260911",
   "updated_date": "2026-09-17",
-  "phase": "3_statistical_references_and_controlled_dependence_probe",
-  "status": "B002_verified_H002_running",
-  "last_execution_source_commit": "f40b8fc0fbca70eae5f2aaed21adb033566725a6",
-  "active_jobs": [{"unit":"H002","run_id":35271388310,"seeds":[17,29,41],"maximum_minutes_per_job":15,"status":"in_progress_last_observed","workflow":".github/workflows/synthetic-h002-dependence.yml"}],
+  "phase": "4_replicate_neighborhood_smoothing_and_challenge_proximity",
+  "status": "H002_and_H003_verified_H003R_registered_not_started",
+  "last_execution_source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
+  "active_jobs": [],
   "active_agents": [],
   "completed_units": [
     {"id":"R000","status":"verified_scoped","result":"Original archives recovered; large historical outputs missing; historical final test access unknown."},
     {"id":"R001","status":"verified_scoped","run_id":35263683516,"result":"CPU fixture checkpoint continuation, state omission controls and remote artifact retrieval passed."},
     {"id":"H001","status":"verified_development_only","run_id":35264679818,"result":"Contextual correction helped tree balanced accuracy and harmed rarest class recall."},
     {"id":"H001C","status":"verified_development_only","run_id":35265966995,"result":"Linear student reversed the contextual correction benefit."},
-    {"id":"B002","status":"verified_one_seed_development_only","run_id":35270306642,"artifact_id":10518044183,"archive_sha256":"b5a351d1c0b4008ff2daa37ec7deea7bfd690d2fdd97041f4e4d9e327b1470ee","internal_files_checked":29,"tree_balanced_accuracy":0.7631356724494103,"linear_balanced_accuracy":0.5065284938769498,"training_rows":348563,"development_rows":116314,"artifact_retrieved":true,"retention_expires":"2026-12-16"}
+    {"id":"B002","status":"verified_one_seed_development_only","run_id":35270306642,"artifact_id":10518044183,"archive_sha256":"b5a351d1c0b4008ff2daa37ec7deea7bfd690d2fdd97041f4e4d9e327b1470ee","internal_files_checked":29,"tree_balanced_accuracy":0.7631356724494103,"linear_balanced_accuracy":0.5065284938769498,"training_rows":348563,"development_rows":116314,"artifact_retrieved":true,"retention_expires":"2026-12-16"},
+    {"id":"H002","status":"verified_three_seeds_development_only","run_id":35271388310,"seeds":[17,29,41],"artifact_ids":[10518567231,10519641731,10519717588],"archive_hashes_verified":true,"internal_files_checked":189,"saved_models_freshly_reloaded":24,"conditional_marginals_freshly_checked":true,"summary":"findings/H002/SUMMARY.md","retention_expires":"2026-12-16"},
+    {"id":"H003","status":"verified_one_seed_development_only","run_id":35273655571,"seeds":[17],"artifact_id":10518774406,"archive_sha256":"a79f3361089b439664eea525d5ef19d0736b1cb0ac1d9676be37de7cdfbac432","internal_files_checked":64,"saved_models_freshly_reloaded":6,"adaptive_beta_tree_balanced_accuracy":0.8576957384344924,"adaptive_beta_near_reference_fraction":0.05706859305204511,"summary":"findings/H003/SUMMARY.md","retention_expires":"2026-12-16"}
   ],
-  "current_hypothesis": "Compare dependence mechanisms while preserving exactly every numerical marginal within the same wilderness, soil and cover context. Empirical beta copula smoothing is established prior art, not an invention of this project.",
+  "current_hypothesis": "Training neighborhood calibrated beta smoothing may retain tree utility while reducing unusual proximity. The favorable pooled fifth percentile statistic is not full geometric fidelity or privacy; complete and contextual distance distributions require challenge.",
   "next_unit": {
-    "id": "H002_collect_and_verify",
-    "objective": "Inspect run35271388310, recover complete or partial artifacts, verify archive and internal hashes, and independently analyze all completed seeds before launching a successor.",
+    "id": "H003R",
+    "objective": "Replicate frozen H003 source on generation seeds 29 and 41 with all three methods and unchanged checker gates; retrieve and verify each archive before acceptance.",
+    "protocol": "units/H003R/PROTOCOL.md",
+    "protocol_commit": "58771a5a15123c7582ae4d9796a0774f54378e2c",
+    "source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
+    "compute_limit": "Two standard public repository CPU jobs, at most 20 minutes each, no paid runners or automatic retries",
     "do_not_duplicate_active_jobs": true,
-    "outputs": ["H002 comparison table", "artifact retrieval receipts", "full table verification", "proximity challenge", "next recorded decision"],
     "new_dataset_required": false
   },
-  "proximity_challenge": {"unit":"H002Q","status":"eight_controls_passed_and_three_baseline_tables_checked_locally","scope":"Exact nearest training points within identical contexts on all rows, referenced to all real development distances; not formal privacy","raw_or_final_data_modified":false,"large_candidate_results_not_yet_observed":true},
+  "proximity_challenge": {"unit":"H002Q","status":"historical_controls_retained; H003_saved_distance_count_rechecked","scope":"Nearest training points within identical contexts, with full distribution and contextual followup pending; no formal privacy","raw_or_final_data_modified":false},
   "final_test": {"scored_in_this_cycle":false,"historical_exposure":"unknown","independent_confirmation":false},
   "originality_status": "not_established; controlled empirical findings and known reference mechanisms",
-  "independence": "Same assistant author, separate tests and checker processes. No external agent or human approval.",
+  "independence": "Same assistant author; fresh read only metric and inference audit supported by eight controls. Separate processes are not external agent or human approval.",
   "constraints": {"no_tinyfish":true,"no_paid_compute":true,"no_new_dataset_without_user_approval":true,"no_force_push":true,"preserve_main_and_historical_evidence":true,"no_arbitrary_training_caps":true},
-  "unfinished": ["H002 execution and retrieved evidence", "Full relationship and proximity challenge", "Neural reference", "Five seed promotion", "Independent final confirmation", "Beijing transfer", "Volume effects", "Established scientific priority"]
+  "unfinished": ["H003 additional seed replication", "Full relationship and contextual proximity challenge", "Bandwidth and pilot robustness ablations", "Neural reference", "Five seed promotion", "Independent final confirmation", "Beijing transfer", "Volume effects", "Established scientific priority"]
 }
