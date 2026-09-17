@@ -1,0 +1,26 @@
+{
+  "scope":"Full Covertype development experiment, not final confirmation",
+  "source_rows":581012,"training_rows":348563,"development_rows":116314,"reserved_not_scored":116135,
+  "generation_seeds":[17,29,41],"tree_fits":15,"linear_fits":15,"new_neural_generator_fits":0,
+  "aggregation":"Means across three generations on one fixed real partition. Real reference repeats are not independent replications.",
+  "means":[
+    {"learner":"tree","variant":"real","correct":104420.0,"accuracy":0.8977423182076104,"balanced_accuracy":0.8633388224456201},
+    {"learner":"tree","variant":"raw","correct":97707.66666666667,"accuracy":0.8400335872437253,"balanced_accuracy":0.8046676292854613},
+    {"learner":"tree","variant":"pooled_legacy","correct":95911.33333333333,"accuracy":0.8245897599027918,"balanced_accuracy":0.7177805291749256},
+    {"learner":"tree","variant":"pooled_keyed","correct":95936.0,"accuracy":0.824801829530409,"balanced_accuracy":0.720382935852717},
+    {"learner":"tree","variant":"context_keyed","correct":99058.66666666667,"accuracy":0.8516486980644348,"balanced_accuracy":0.8217708715950383},
+    {"learner":"linear","variant":"real","correct":84310.0,"accuracy":0.7248482555840225,"balanced_accuracy":0.512057749953183},
+    {"learner":"linear","variant":"raw","correct":83497.33333333333,"accuracy":0.7178614210957694,"balanced_accuracy":0.5364660770225562},
+    {"learner":"linear","variant":"pooled_legacy","correct":83675.33333333333,"accuracy":0.7193917613815476,"balanced_accuracy":0.5248956472924263},
+    {"learner":"linear","variant":"pooled_keyed","correct":83678.0,"accuracy":0.7194146878277765,"balanced_accuracy":0.5249004598430617},
+    {"learner":"linear","variant":"context_keyed","correct":84248.0,"accuracy":0.724315215709201,"balanced_accuracy":0.5080044073008038}
+  ],
+  "paired_balanced_accuracy_effect_pp":{
+    "tree_context_minus_raw":[1.4673854597962666,1.8992782837899291,1.7643089492868747],
+    "linear_context_minus_raw":[-2.963586165583132,-2.743809842756828,-2.8311049081857997]
+  },
+  "order_counterexample":{"records":348563,"legacy_changed_records":293498,"keyed_changed_records":0,"original_float_input_equivalence":true,"original_integer_differing_records":11538,"original_integer_maximum_difference":1},
+  "promotion":"Not promoted as a general improvement. Second learner reversed the gain and rarest tree class declined.",
+  "historical_final_exposure":"unknown","final_scored_in_this_cycle":false,
+  "independence":"Same assistant, separate verification code and process, no external authorship endorsement"
+}

@@ -1,0 +1,17 @@
+{
+  "repository": "LinLee10/mess-of-projects",
+  "all_jobs": "completed_success",
+  "all_archives_downloaded_and_internal_files_verified": true,
+  "total_verified_archive_bytes": 441618087,
+  "total_internal_file_digests": 475,
+  "retention_warning": "Artifacts expire December 16 2026. Verified retrieval is not permanent archival storage.",
+  "artifacts": [
+    {"unit":"R001","run_id":35263683516,"artifact_id":10515592978,"filename":"recovery_gate_35263683516.zip","sha256":"8dc2a109546c014fde14a45a86840cf953a04cede25a76fd9b21e8d77493ec1e","bytes":2629706,"verified_internal_files":217,"expiry":"2026-12-16T19:14:22Z"},
+    {"unit":"H001_seed17","run_id":35264679818,"artifact_id":10516640062,"filename":"H001_seed17_35264679818.zip","sha256":"e9ea0efca9c240695fafcc201d9cf7d091ab24e2ca9dd20eb8d7f9211c2a3ad6","bytes":114770060,"verified_internal_files":58,"expiry":"2026-12-16T19:24:18Z"},
+    {"unit":"H001_seed29","run_id":35264679818,"artifact_id":10516385624,"filename":"H001_seed29_35264679818.zip","sha256":"6430220ce2281ab3e8bc086132c7a0da090f0ab911f43f90e83a1b15741bdc7e","bytes":114771245,"verified_internal_files":58,"expiry":"2026-12-16T19:24:18Z"},
+    {"unit":"H001_seed41","run_id":35264679818,"artifact_id":10517080118,"filename":"H001_seed41_35264679818.zip","sha256":"a02bc96cb33ad60466689989459ce4cff6791b133bbeb4b372e83bc451eb7a10","bytes":114766502,"verified_internal_files":58,"expiry":"2026-12-16T19:24:18Z"},
+    {"unit":"H001C_seed17","run_id":35265966995,"artifact_id":10517097475,"filename":"H001C_seed17_35265966995.zip","sha256":"f0f941f6d335c16a45e6ded3253e26f53b470bb91dec95523a0c28451463cbca","bytes":31562344,"verified_internal_files":28,"expiry":"2026-12-16T19:37:21Z"},
+    {"unit":"H001C_seed29","run_id":35265966995,"artifact_id":10517107246,"filename":"H001C_seed29_35265966995.zip","sha256":"30d9113b17678dfe62dc13f5556ef19e3ee51c958a870aba05426624ea471bb5","bytes":31558724,"verified_internal_files":28,"expiry":"2026-12-16T19:37:21Z"},
+    {"unit":"H001C_seed41","run_id":35265966995,"artifact_id":10516389364,"filename":"H001C_seed41_35265966995.zip","sha256":"4802da6dd48a0da858c8ca9cdff026d2b57b3149991eaa854b0b1597fa498f90","bytes":31559506,"verified_internal_files":28,"expiry":"2026-12-16T19:37:21Z"}
+  ]
+}
