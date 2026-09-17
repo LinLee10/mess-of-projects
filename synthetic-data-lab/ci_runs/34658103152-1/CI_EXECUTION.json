@@ -1,0 +1,95 @@
+{
+  "started_utc": "2026-09-11T23:27:42.526628+00:00",
+  "source_commit": "41f4036bcb987a83cef0f14d65c6f1093b062874",
+  "run_id": "34658103152",
+  "run_attempt": "1",
+  "evidence_origin": "Fresh CI replay; not the original session artifact",
+  "cpu_only": true,
+  "pretrained_language_models": false,
+  "commands": [
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "-m",
+        "synthlab_next.cli",
+        "train",
+        "--config",
+        "configs/pilot.json",
+        "--output",
+        "results/pilot_v1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "-m",
+        "synthlab_next.cli",
+        "evaluate",
+        "--output",
+        "results/pilot_v1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "-m",
+        "synthlab_next.cli",
+        "analyze",
+        "--run",
+        "results/pilot_v1",
+        "--output",
+        "results/analysis_v1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "review/audit_artifacts.py",
+        "--run",
+        "results/pilot_v1",
+        "--output",
+        "results/independent_audit.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "scripts/export_wine.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/opt/hostedtoolcache/Python/3.13.5/x64/bin/python",
+        "-m",
+        "synthlab_next.cli",
+        "screen-wine",
+        "--input",
+        "models/wine_demo/synthetic_wine_1000.csv",
+        "--schema",
+        "models/wine_demo/selected_generator/schema.json",
+        "--output",
+        "models/wine_schema_screen"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "status": "completed",
+  "finished_utc": "2026-09-11T23:37:48.503432+00:00"
+}

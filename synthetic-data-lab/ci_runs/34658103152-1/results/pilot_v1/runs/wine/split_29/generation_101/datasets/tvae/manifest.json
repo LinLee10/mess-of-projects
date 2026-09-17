@@ -1,0 +1,13 @@
+{
+  "class_counts": [
+    128,
+    154,
+    102
+  ],
+  "configuration": "tvae",
+  "generation_seed": 101,
+  "rows": 384,
+  "source_real_x_sha256": "99dc378982ba1c5d7b09bedbe73092a3257977a19d2fa893a443b867ec289e26",
+  "x_sha256": "d68fe1400b06a9c34c5c50434386d5748e68d8347bfca90ecc956f10563b32b1",
+  "y_sha256": "439c73f86662a8f63a69296af74a92ba0950bbc15f26087a7d2e0d63dcd7db11"
+}

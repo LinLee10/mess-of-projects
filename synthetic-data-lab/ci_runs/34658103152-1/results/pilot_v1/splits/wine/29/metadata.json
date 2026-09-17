@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "dev": 34,
+    "test": 45,
+    "train": 60,
+    "unused": 39
+  },
+  "dataset": "wine",
+  "feature_names": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "source": {
+    "task": "Wine cultivar classification from 13 chemical measurements",
+    "train_cap": 60,
+    "url": "https://archive.ics.uci.edu/dataset/109/wine"
+  },
+  "source_x_sha256": "f5d369f7d9bb449e7ba2fc2392a0a57f99305499614d7551a25120fc15c290d1",
+  "source_y_sha256": "01005948ca8489d1a66ca8f66bbf242e58cc42af746a3dde921a3f7df1396686",
+  "split_hashes": {
+    "dev": "be48a71eef2cb3f64e9d815f4ce697d56c44120568538f61d5d2dc462fd81dda",
+    "test": "398af2485bf6692e01c8020f5a1ccd7c93ed0040733e746403bb57c9f75cbe9a",
+    "train": "a885f9e2d87240024af74901b360160469fb2d1509e7c5a1c5c6aeb2289f8967",
+    "unused": "f17363c6779efd2d1f126729fc5a1efb5c4d4c18fd3bdad13898d660b24a4191"
+  },
+  "split_policy": "Stratified fixed outer split, capped real training budget, no source sharing within a split",
+  "split_seed": 29,
+  "target_names": [
+    "class_0",
+    "class_1",
+    "class_2"
+  ]
+}

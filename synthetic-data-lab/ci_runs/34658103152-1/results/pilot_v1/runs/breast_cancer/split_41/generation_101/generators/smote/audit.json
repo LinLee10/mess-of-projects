@@ -1,0 +1,35 @@
+{
+  "adaptation": "SMOTE interpolation applied to all classes under matched class counts, not only minority oversampling",
+  "configuration_name": "smote",
+  "diagnostics": {
+    "class_counts": [
+      144,
+      240
+    ],
+    "correlation_columns": 30,
+    "correlation_mean_absolute_error_train": 0.063633064272204,
+    "exact_internal_duplicate_rate": 0.0,
+    "exact_training_copy_rate": 0.0,
+    "limitations": "Training reference diagnostics favor memorization; distances do not establish privacy or semantic validity",
+    "marginal_wasserstein_train_standardized": 0.09164816065543928,
+    "n": 384,
+    "nearest_training_distance_median": 0.7035996289089703,
+    "negative_feature_row_fraction": 0.0
+  },
+  "fit_seconds": 0.0012130549999938012,
+  "method": "smote",
+  "neural_model": false,
+  "pool_x_sha256": "61de2c674a6d20f6ce1b356314933df4e49d089bbe602da4c1114546f5a4e265",
+  "pool_y_sha256": "c81d42668e8756f4d1b102af2fbfd6560a8f530b26e51e41dcd385c07a7a9fdc",
+  "real_model_training": true,
+  "sampling": {
+    "generated": 1536,
+    "requested": 1536,
+    "retained_fraction": 1.0,
+    "status": "completed"
+  },
+  "seed": 101,
+  "total_fit_and_sample_seconds": 0.10463773499998297,
+  "training_x_sha256": "a1b203fb3649d3be0bcbce757e2c1a8d18c990013eb99093a38fcf2784df4aad",
+  "training_y_sha256": "54b71adf471903284e9a8d264e34f4089e7b2574a0c58e9c1631f1ac6c5d3f17"
+}

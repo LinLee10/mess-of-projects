@@ -1,0 +1,22 @@
+{
+  "accepted_rows": 1000,
+  "evaluation_status": "Postexperiment export screen only; no downstream improvement claim or rerun of the frozen test",
+  "input_rows": 1000,
+  "not_verified": [
+    "Chemical consistency",
+    "Measurement precision and units",
+    "Cultivar correctness",
+    "Out of distribution realism",
+    "Privacy"
+  ],
+  "rejected_rows": 0,
+  "rules": [
+    "Exact named columns",
+    "Finite numeric values",
+    "Nonnegative feature values",
+    "Known cultivar class id"
+  ],
+  "schema_checked_sha256": "e1b670b5b0ed6ac8fdc84cef3d5910c4fec19f114253f3812fe6c64a4934455b",
+  "schema_sha256": "efe173bd673f713c47023bd74d80b978275fe2ee0a46ae46754b93d865a761fe",
+  "source_sha256": "e1b670b5b0ed6ac8fdc84cef3d5910c4fec19f114253f3812fe6c64a4934455b"
+}

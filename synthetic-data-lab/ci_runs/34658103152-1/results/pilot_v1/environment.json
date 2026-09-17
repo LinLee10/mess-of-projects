@@ -1,0 +1,13 @@
+{
+  "executed_track": "continuous tabular data with categorical target",
+  "gpu_used": false,
+  "network_model_calls": 0,
+  "numpy": "2.3.5",
+  "paid_compute": false,
+  "pretrained_models_used": false,
+  "python": "3.13.5",
+  "scikit_learn": "1.8.0",
+  "scipy": "1.17.0",
+  "torch": "2.10.0+cpu",
+  "torch_num_threads": 1
+}

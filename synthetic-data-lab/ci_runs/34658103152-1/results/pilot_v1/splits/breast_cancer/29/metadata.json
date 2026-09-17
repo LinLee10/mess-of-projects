@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "dev": 107,
+    "test": 143,
+    "train": 120,
+    "unused": 199
+  },
+  "dataset": "breast_cancer",
+  "feature_names": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "source": {
+    "task": "Public diagnostic classification benchmark, not clinical validation",
+    "train_cap": 120,
+    "url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic"
+  },
+  "source_x_sha256": "f12ab234661b57c7dce90533469369a3367f8d1c74737029e8d11197e93df337",
+  "source_y_sha256": "7340a2a3610d68c0cfedef40649c7d7339d43460dc36cf8639ba4e7305574680",
+  "split_hashes": {
+    "dev": "5e6884604a173f02d9017c8ab12a60af69a1aab644f499cd890d4763a8fd3ba8",
+    "test": "8776f9fb443a96e1ade4955589f1f3b76e8337804e458d9875896cb2ff2cfe50",
+    "train": "85c8d2e0a05e85a6de0560535d82fcaecdc6152a81b3cc21c7caa00ddb88d136",
+    "unused": "008c8bd2208e79d017437e1f5c10fdc2bb219e5b03088883e00ef0fb07f5cc6e"
+  },
+  "split_policy": "Stratified fixed outer split, capped real training budget, no source sharing within a split",
+  "split_seed": 29,
+  "target_names": [
+    "malignant",
+    "benign"
+  ]
+}

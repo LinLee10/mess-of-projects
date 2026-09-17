@@ -1,0 +1,12 @@
+{
+  "class_counts": [
+    144,
+    240
+  ],
+  "configuration": "ddpm_standardized",
+  "generation_seed": 202,
+  "rows": 384,
+  "source_real_x_sha256": "a1b203fb3649d3be0bcbce757e2c1a8d18c990013eb99093a38fcf2784df4aad",
+  "x_sha256": "245d75d0b02e7105a2d4a3902bb3213fbabadbeffb54ad5e5800bf6f1f4431b6",
+  "y_sha256": "56beb1091ab7848f4e8bf2de7d1328b456a3f75aa1bcc4cfb52400ca342ef0fd"
+}

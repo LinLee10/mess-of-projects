@@ -1,0 +1,13 @@
+{
+  "status": "frozen_before_final_scoring",
+  "local_manifest_sha256": "2bdab8b1980d19060c6cb103ae938e9868b9262f90a536e4d0936e920e661ec3",
+  "frozen_file_count": 807,
+  "selection_commit": "ee29ccda586a3109ff7682aab86462742579a797",
+  "covertype_training_rows": 348563,
+  "covertype_test_rows": 116135,
+  "beijing_training_rows": 210240,
+  "beijing_test_station_hours": 105120,
+  "volume_factors_prepared": [0.25, 2, 5],
+  "includes": ["source", "tests", "reviewers", "prepared_partitions", "generated_tables", "generator_models", "development_students", "secondary_students", "augmentation_students", "volume_students", "feature_relationship_students"],
+  "scope": "The full per file manifest is retained in the evidence package. This digest does not itself establish that final evaluation succeeded."
+}

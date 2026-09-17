@@ -1,0 +1,39 @@
+{
+  "schema_version": 5,
+  "repository": "LinLee10/mess-of-projects",
+  "branch": "research/synthetic-data-reviewed-20260911",
+  "updated_date": "2026-09-17",
+  "phase": "4_replicated_neighborhood_smoothing_mechanism_challenge",
+  "status": "H003R_verified_three_seed_development_tradeoff",
+  "last_execution_source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
+  "last_orchestration_commit": "aa6858f7fbbcdf9196af9dcdcd7b6debf6229b69",
+  "active_jobs": [],
+  "active_agents": [],
+  "completed_units": [
+    {"id":"R000","status":"verified_scoped","result":"Original archives recovered; large historical outputs missing; historical final test access unknown."},
+    {"id":"R001","status":"verified_scoped","run_id":35263683516,"result":"CPU fixture checkpoint continuation, state omission controls and remote artifact retrieval passed."},
+    {"id":"H001","status":"verified_development_only","run_id":35264679818,"result":"Contextual correction helped tree balanced accuracy and harmed rarest class recall."},
+    {"id":"H001C","status":"verified_development_only","run_id":35265966995,"result":"Linear student reversed the contextual correction benefit."},
+    {"id":"B002","status":"verified_one_seed_development_only","run_id":35270306642,"artifact_id":10518044183,"archive_sha256":"b5a351d1c0b4008ff2daa37ec7deea7bfd690d2fdd97041f4e4d9e327b1470ee","internal_files_checked":29,"tree_balanced_accuracy":0.7631356724494103,"linear_balanced_accuracy":0.5065284938769498,"training_rows":348563,"development_rows":116314,"artifact_retrieved":true,"retention_expires":"2026-12-16"},
+    {"id":"H002","status":"verified_three_seeds_development_only","run_id":35271388310,"seeds":[17,29,41],"artifact_ids":[10518567231,10519641731,10519717588],"archive_hashes_verified":true,"internal_files_checked":189,"saved_models_freshly_reloaded":24,"conditional_marginals_freshly_checked":true,"summary":"findings/H002/SUMMARY.md","retention_expires":"2026-12-16"},
+    {"id":"H003","status":"verified_one_seed_development_only","run_id":35273655571,"seeds":[17],"artifact_id":10518774406,"archive_sha256":"a79f3361089b439664eea525d5ef19d0736b1cb0ac1d9676be37de7cdfbac432","internal_files_checked":64,"saved_models_freshly_reloaded":6,"adaptive_beta_tree_balanced_accuracy":0.8576957384344924,"adaptive_beta_near_reference_fraction":0.05706859305204511,"summary":"findings/H003/SUMMARY.md","retention_expires":"2026-12-16"},
+    {"id":"H003R","status":"verified_two_additional_seeds_development_only","run_id":35283101267,"seeds":[29,41],"artifact_ids":[10523406502,10523321584],"archive_hashes_verified":true,"internal_files_checked":206,"saved_models_freshly_reloaded":12,"original_tests_each_job":31,"local_control_tests":20,"three_seed_adaptive_tree_balanced_accuracy":0.8618728267281058,"three_seed_adaptive_near_fraction":0.05706285520838414,"summary":"findings/H003R/SUMMARY.md","artifact_index":"findings/H003R/ARTIFACT_INDEX.json","retention_expires":"2026-12-16"}
+  ],
+  "current_hypothesis": "The squared pilot distance ratio rule reduces extreme training proximity but undershoots central training geometry after marginal assignment. Direct training only measurement of the bandwidth response may improve calibration. Cause and improvement are not established.",
+  "next_unit": {
+    "id": "H004A",
+    "status": "planned_not_started",
+    "objective": "Register a bounded training only bandwidth response experiment, preserve frozen marginal assignment and contexts, test the postassignment distance response against the current squared ratio approximation, and retain an independently checked calibration diagnostic before any new utility tuning.",
+    "requires_preexecution_protocol": true,
+    "requires_retrieved_H003R_evidence": true,
+    "do_not_repeat_completed_H003R_jobs": true,
+    "new_dataset_required": false,
+    "no_final_test_access": true
+  },
+  "proximity_challenge": {"status":"completed_exploratory_across_three_seeds","supported_contexts":110,"covered_synthetic_rows":337216,"adaptive_below_context_real_median_fraction":0.7088097836401596,"real_split_control_fraction":0.5018112874831924,"adaptive_context_weighted_ks":0.22011573549550079,"real_split_control_ks":0.04433828210333935,"scope":"Conditional distance shape mismatch persists despite near reference fifth percentile rate. Descriptive control, not formal privacy or independent final confirmation.","raw_or_final_data_modified":false},
+  "final_test": {"scored_in_this_cycle":false,"historical_exposure":"unknown","independent_confirmation":false},
+  "originality_status": "not_established; primary abstract prior art challenge retained in units/H003R/PRIOR_ART.md",
+  "independence": "Same assistant author, separate read only scripts and fresh processes. No external agent or human approval.",
+  "constraints": {"no_tinyfish":true,"no_paid_compute":true,"no_new_dataset_without_user_approval":true,"no_force_push":true,"preserve_main_and_historical_evidence":true,"no_arbitrary_training_caps":true},
+  "unfinished": ["Training only bandwidth mechanism ablation", "Pilot and student randomness robustness", "Five seed promotion", "Full feature relationship tests", "Rare context sensitivity", "Neural reference", "Independent final confirmation", "Beijing transfer", "Volume effects", "Established scientific priority"]
+}

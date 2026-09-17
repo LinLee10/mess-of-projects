@@ -1,0 +1,19 @@
+{
+  "unit": "H003R",
+  "run_id": 35283101267,
+  "orchestration_commit": "aa6858f7fbbcdf9196af9dcdcd7b6debf6229b69",
+  "source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
+  "protocol_commit": "58771a5a15123c7582ae4d9796a0774f54378e2c",
+  "workflow": ".github/workflows/synthetic-h003-replication.yml",
+  "registered_at": "2026-09-17T22:39:23Z",
+  "status_at_registration": "in_progress",
+  "jobs": [
+    {"seed": 29, "job_id": 105409299781, "dependency_tests": "passed", "fitting": "in_progress"},
+    {"seed": 41, "job_id": 105409299994, "dependency_tests": "passed", "fitting": "in_progress"}
+  ],
+  "maximum_minutes_per_job": 20,
+  "automatic_retries": 0,
+  "paid_runner": false,
+  "final_test_scored": false,
+  "acceptance": "Requires completed separate checker, artifact retrieval and archive plus internal digest verification. This registration is not a result."
+}
