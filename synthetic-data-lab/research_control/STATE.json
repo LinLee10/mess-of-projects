@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "purpose": "Resumable research coordination, not experiment results",
+  "repository": "LinLee10/mess-of-projects",
+  "branch": "research/synthetic-data-reviewed-20260911",
+  "project_path": "synthetic-data-lab",
+  "inspected_base_commit": "b08b4c1d4838ddc7f6e04ae82375dcd62ceb3007",
+  "phase": "0_recover_truth",
+  "status": "plan_prepared_recovery_incomplete",
+  "new_model_fits_this_planning_turn": 0,
+  "active_jobs": [],
+  "active_agents": [],
+  "checkpoint_resume_gate": "not_tested",
+  "durable_experimental_artifact_gate": "not_tested",
+  "benchmark_acceptance_gate": "not_reverified",
+  "historical_final_test_exposure": "unknown_until_audited",
+  "historical_large_data_scores": "not_accepted_as_verified_baselines",
+  "originality_status": "not_established",
+  "raw_archive_checks": {
+    "beijing_air_quality.zip": {
+      "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+      "bytes": 8192212,
+      "matches_supplied_original_hash": true,
+      "verified_from": "verified_benchmark_inputs.zip in the active workspace",
+      "scientific_quality_certified": false
+    },
+    "covertype.zip": {
+      "sha256": "89a975c2457cd48e824238ae43c5a3cb762e42c4b4078d9b44a4514055105f6d",
+      "bytes": 11251206,
+      "matches_supplied_original_hash": true,
+      "verified_from": "verified_benchmark_inputs.zip in the active workspace",
+      "scientific_quality_certified": false
+    }
+  },
+  "unresolved": [
+    "The inspected recovery protocol records 807 unrecovered v4 artifacts.",
+    "Recovered local schemas are present; original large partition membership arrays are not present beside them.",
+    "Earlier accuracy and novelty claims need a claim to artifact ledger.",
+    "Available execution, independent agent and durable storage capabilities require validation before model jobs."
+  ],
+  "next_unit": {
+    "id": "R000_recovery_inventory",
+    "objective": "Inventory recoverable evidence and prior final test access, then verify remote artifact retrieval.",
+    "dependency": "Raw archive byte identity checks passed in the planning turn.",
+    "outputs": [
+      "CLAIMS.jsonl",
+      "RECOVERY_REPORT.md",
+      "artifact_retrieval_receipt.json"
+    ],
+    "acceptance": "Every claimed baseline linked to retained verifiable files or marked missing; retrieved artifact hash agrees; next unit recorded.",
+    "following_unit": "R001_checkpoint_resume_control"
+  },
+  "research_queue": [
+    {
+      "id": "H001",
+      "question": "Does contextual rather than pooled calibration preserve conditional structure?",
+      "status": "hypothesis_not_a_novelty_claim"
+    },
+    {
+      "id": "H002",
+      "question": "Can learned residual generation improve tails without losing interpolation utility?",
+      "status": "hypothesis_not_a_novelty_claim"
+    },
+    {
+      "id": "H003",
+      "question": "Can verifier disagreement guide a repair that generalizes to an independent evaluator?",
+      "status": "hypothesis_not_a_novelty_claim"
+    }
+  ],
+  "constraints": {
+    "no_arbitrary_training_caps": true,
+    "preserve_original_tests": true,
+    "no_tinyfish": true,
+    "paid_compute_authorized": false,
+    "new_dataset_requires_user_request": true,
+    "no_force_push": true,
+    "no_background_execution_claim": true,
+    "source_context": "This project and expressly authorized public research only"
+  }
+}
