@@ -1,0 +1,93 @@
+name: H003R frozen neighborhood replication
+on:
+  push:
+    branches: [research/synthetic-data-reviewed-20260911]
+    paths: ['.github/workflows/synthetic-h003-replication.yml']
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: synthetic-h003-replication
+  cancel-in-progress: false
+jobs:
+  replicate:
+    if: github.repository == 'LinLee10/mess-of-projects'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        seed: [29, 41]
+    env:
+      RESEARCH_SOURCE_SHA: f698bbbff3059d7ba7c539de106ebb9573b4088f
+      REPLICATION_PROTOCOL_SHA: 58771a5a15123c7582ae4d9796a0774f54378e2c
+      GENERATION_SEED: ${{ matrix.seed }}
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: f698bbbff3059d7ba7c539de106ebb9573b4088f
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: h001-seed-17-35264679818-1
+          run-id: 35264679818
+          github-token: ${{ github.token }}
+          path: input_evidence
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: b002-seed17-35270306642-1
+          run-id: 35270306642
+          github-token: ${{ github.token }}
+          path: baseline_evidence
+      - run: python -m pip install numpy==2.3.5 scipy==1.17.0 pandas==2.2.3 scikit-learn==1.8.0 lightgbm==4.6.0
+      - name: Unchanged dependency and checker gates
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir evidence
+          test "$(git rev-parse HEAD)" = "$RESEARCH_SOURCE_SHA"
+          python -m pip freeze > evidence/dependencies.txt
+          python synthetic-data-lab/research_control/units/H002/review/test_rank_synthesis.py 2>&1 | tee evidence/preserved_tests.log
+          python synthetic-data-lab/research_control/units/H003/review/test_neighborhood.py 2>&1 | tee evidence/implementation_tests.log
+          python synthetic-data-lab/research_control/units/H003/review/test_checker.py 2>&1 | tee evidence/checker_tests.log
+      - name: Fit three unchanged full data methods
+        timeout-minutes: 12
+        shell: bash
+        run: |
+          set -euo pipefail
+          GITHUB_SHA="$RESEARCH_SOURCE_SHA" python synthetic-data-lab/research_control/units/H003/src/run_h003.py --input input_evidence --baseline baseline_evidence --output evidence/run --support synthetic-data-lab/research_control --seed "$GENERATION_SEED" 2>&1 | tee evidence/execution.log
+      - name: Separate unchanged full artifact checker
+        timeout-minutes: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          python synthetic-data-lab/research_control/units/H003/review/check_h003.py --input input_evidence --baseline baseline_evidence --run evidence/run --support synthetic-data-lab/research_control --seed "$GENERATION_SEED" --output evidence/AUDIT.json 2>&1 | tee evidence/audit.log
+      - name: Preserve complete or partial source and evidence
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p evidence
+          cp -r synthetic-data-lab/research_control evidence/support
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,os
+          p=Path('evidence')
+          metadata={'unit':'H003R','source_commit':os.environ['RESEARCH_SOURCE_SHA'],'orchestration_commit':os.environ['GITHUB_SHA'],'protocol_commit':os.environ['REPLICATION_PROTOCOL_SHA'],'seed':int(os.environ['GENERATION_SEED']),'run_id':os.environ['GITHUB_RUN_ID'],'attempt':os.environ['GITHUB_RUN_ATTEMPT'],'final_test_scored':False}
+          (p/'RUN.json').write_text(json.dumps(metadata,indent=2)+'\n')
+          hashes={str(f.relative_to(p)):hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted(p.rglob('*')) if f.is_file()}
+          (p/'ARTIFACT_SHA256.json').write_text(json.dumps(hashes,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: h003r-seed-${{ matrix.seed }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: evidence/
+          retention-days: 90
+          if-no-files-found: error
