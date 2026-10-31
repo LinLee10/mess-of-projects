@@ -1,0 +1,49 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.8, pytest-7.4.3, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+cachedir: .pytest_cache
+rootdir: /private/tmp/scale-h004a-review-20261030
+plugins: socket-0.7.0, asyncio-0.21.1, dash-3.2.0, Faker-37.6.0, anyio-3.7.1
+asyncio: mode=Mode.STRICT
+collecting ... collected 39 items
+
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_correct_complete_fixture_and_cli PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_default_refuses_small_population PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nan_refused_before_zero_fallback PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_altered_distance_refused[calibration] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_altered_distance_refused[audit] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_altered_distance_refused[inverse] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_altered_marginal_refused PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_altered_selection_refused PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_missing_audit_seed_refused PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_bad_audit_contexts_refused[duplicate] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_bad_audit_contexts_refused[misaligned] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_input_label_context_mismatch PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_selection_rules_and_ties PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_write_serialization_and_exclusive PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_malformed_shape_refused PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_failed_cli_retains_partial_log_and_no_report PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_screen_tamper PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_missing_context_list_refused_explicitly PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_permutation_accepted[seed_method] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_permutation_accepted[reverse] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_identity_rejected[duplicate_replace] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_identity_rejected[duplicate_append] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_identity_rejected[missing] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_summary_identity_rejected[extra] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[reduction-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[reduction-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[flag-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[flag-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[all_flag-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[all_flag-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[missing-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[missing-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[extra-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[extra-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[duplicate_replace-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[duplicate_replace-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[duplicate_append-empirical_median] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_nested_screen_corruption_rejected[duplicate_append-empirical_quantile] PASSED
+synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py::test_screen_fixed_thresholds PASSED
+
+============================= 39 passed in 23.09s ==============================

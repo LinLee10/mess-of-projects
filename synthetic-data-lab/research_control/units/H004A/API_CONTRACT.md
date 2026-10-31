@@ -1,0 +1,17 @@
+# H004A callable contract
+
+The new module is src/mechanism.py. This contract is fixed before implementation and before full data execution. Numeric arrays must reject complex data, nonfinite values, dimension mismatch and broadcasting shortcuts. Every error below is ValueError. No original source or tests may change.
+
+candidate_widths(n, heuristic): n is a positive integral scalar excluding bool. Heuristic is a finite real scalar in [1,n], excluding bool. Return a one dimensional float array, sorted ascending and unique, obtained by clipping [1,heuristic/2,heuristic,2*heuristic,4*heuristic,8*heuristic] to [1,n].
+
+choose_width(widths, observed, target, objective='median'): widths is a nonempty strictly increasing finite real vector with all entries at least 1. observed has exact shape (positive seed count,len(widths),5); target has exact shape (5,). Distances are finite, nonnegative and nondecreasing along the quantile axis. objective is median or quantile only. For a positive target median, median loss is the average across seeds of abs(observed[:,:,2]-target[2])/target[2]. Quantile loss is the average over seeds and all five quantiles of abs(observed-target)/target[2]. Return the width with smallest loss; exact ties choose the smallest width. A zero target median returns the smallest width, but only after validating every input. No monotonicity across widths is assumed.
+
+sample_context(reference, ids, width, seed, context_index=0): reference is a nonempty two dimensional integer array with at least one column; ids is an aligned one dimensional nonnegative unique integer vector. width is a finite real scalar between 1 and number of rows. seed and context_index are nonnegative integral scalars excluding bool. Build ranks using the frozen H002 ordinal function and original ids. Initialize default_rng(SeedSequence([seed,context_index])); draw Beta(rank/width,(n+1-rank)/width). Apply the original H002 assign_columns to form assigned. Form inverse by mapping each latent coordinate u to sorted reference at index min(floor(n*u),n-1). Return dict with latent, assigned, inverse. All arrays have reference shape. Original inputs remain unchanged. Singleton and constant coordinates are supported. Integer input values must fit in int64.
+
+nearest_distances(reference, query, scale): nonempty finite real two dimensional aligned feature arrays, plus a finite positive scale vector with exact feature shape. Return the Euclidean nearest reference distances for every query after coordinatewise division by scale. No sample caps. Duplicated reference rows are valid. Inputs remain unchanged.
+
+leave_one_out(reference, scale): same reference and scale validation; exclude each row by identity, not by value. Return every row's nearest other row distance. Duplicated distinct rows therefore have zero distance. For a singleton, return a single zero, the explicitly declared degenerate diagnostic policy.
+
+beta_variance_ratio(n,width): same scalar validation as candidate_widths. Return width*(n+2)/(n+1+width), the exact conditional latent variance relative to width 1 for Beta(r/width,(n+1-r)/width). This is not a nearest distance law.
+
+atomic_json(path,value): create a new JSON file with allow_nan=False and no overwrite. Reject an existing path with FileExistsError. Serialization failure must leave no final file and no temporary file. Preserve any existing file. Parent creation is permitted. Successful write must end with newline and be parseable.

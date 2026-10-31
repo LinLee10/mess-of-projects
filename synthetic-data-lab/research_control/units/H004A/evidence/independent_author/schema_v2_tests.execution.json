@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-m",
+    "pytest",
+    "/private/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py",
+    "-vv",
+    "-s",
+    "--basetemp=/private/tmp/scale-h004a-review-20261030/reviewer_logs/schema_v2/fixture_runs"
+  ],
+  "cwd": "/private/tmp/scale-h004a-review-20261030",
+  "exit_code": 0,
+  "elapsed_seconds": 23.965513944625854,
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "source_hashes": {
+    "synthetic-data-lab/research_control/units/H004A/review/verify_response.py": "36042700a7fc804e1101badb930f875bcb738a56d4fd293cedcf081116779127",
+    "synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py": "3a39a4e18132779cfa21407540bd78275a720acf89cfad7d352b35082258a2d6",
+    "synthetic-data-lab/research_control/units/H004A/review/test_mechanism_contract.py": "5f3c0466488501c2598368ada5529d54c23cfeafa756897008573b4ba270ba37",
+    "synthetic-data-lab/research_control/units/H004A/API_CONTRACT.md": "80defd259e016655fabc91cb8f8b06b665eb60c46972fc762996524dd6498527",
+    "synthetic-data-lab/research_control/units/H004A/PROTOCOL.md": "f3d728abf51ac952d78212bf1429ed004a3c52406e031467f3af100fbb28f10c"
+  }
+}

@@ -1,0 +1,22 @@
+Created both requested files:
+
+- [test_mechanism_contract.py](/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/test_mechanism_contract.py): 41 cases by static parameter expansion, covering validation, selection arithmetic, nonmonotonic responses, exact ties, degenerate fixtures, identity sensitive generation, exact marginals, deterministic generation, direct distance oracles, scale invariance, input preservation and atomic JSON behavior.
+- [DESIGN_REVIEW.md](/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/DESIGN_REVIEW.md): concrete design risks and a conditional favorable verdict on the protocol’s ability to support its bounded mechanism claim. A favorable distance diagnostic establishes neither utility nor privacy.
+
+Validation and evidence:
+
+| Command | Exit | Result |
+|---|---:|---|
+| `python3 -m py_compile …/review/test_mechanism_contract.py` | 0 | Syntax compilation passed; stdout and stderr empty |
+| `python3 -m pytest --collect-only -q -p no:cacheprovider …/review/test_mechanism_contract.py` | 2 | Collection failed with `FileNotFoundError` for the absent `src/mechanism.py`; no behavioral tests ran |
+| `git diff --exit-code` | 0 | No tracked files changed |
+
+Exact command arrays, runtime identity, source hashes, exits and separate stdout/stderr files are retained in [reviewer_logs/h004a_acceptance](/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_acceptance), indexed by [execution.json](/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_acceptance/execution.json).
+
+Test file SHA256:
+
+```text
+5f3c0466488501c2598368ada5529d54c23cfeafa756897008573b4ba270ba37
+```
+
+No implementation was created or modified. The next action is to implement the fixed API, then run these tests and the protocol’s prerequisite gates. This handoff does not accept an implementation or experimental outcome.

@@ -1,0 +1,9 @@
+# H004B diagnostic conventions before execution
+
+This supplement is recorded before H004B reference generation and student fitting. It does not change the registered methods, seeds, learners, sample sizes, acceptance thresholds or H004A outputs.
+
+An inverse empirical CDF sample can have a constant synthetic column inside a small context even when the original column varies. Ordinary Spearman correlation is undefined for that column. For the supplementary dependence discrepancy only, center average ranks and use a zero standardized rank vector when the synthetic rank standard deviation is zero. Compare offdiagonal correlations over columns that vary in real training data. Record every collapsed synthetic column explicitly and report the result as a dependence discrepancy with this convention, not an ordinary defined Spearman correlation in those cases. Training constant columns are excluded. With fewer than two varying training columns, report zero pairs and zero discrepancy while retaining collapse indicators.
+
+The unit generates both published sampler references from the same saved latent draws and anchor identities. The inverse reference is not forced to preserve exact finite marginals. The rank reference is. Neither an exact marginal match nor a low training distance count is a privacy guarantee.
+
+Independent H004A verifier v2 SHA256 36042700a7fc804e1101badb930f875bcb738a56d4fd293cedcf081116779127 completed in the pinned Linux environment without modification. It checked 348563 original leave one out distances, 2536 calibration tables comprising 4167146 rows, the same number of regenerated inverse rows, and 4182756 audit rows across twelve datasets. All passed. The separate agent authored and tested this verifier without real result access; the coordinator executed the exact source on full artifacts. This is independent code authorship and computation, not an independent scientific replication on fresh observations.
