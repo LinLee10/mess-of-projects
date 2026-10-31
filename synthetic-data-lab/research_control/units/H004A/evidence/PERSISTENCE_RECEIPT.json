@@ -1,0 +1,23 @@
+{
+  "whole_file": "H004A_Full_Evidence_20261030.zip",
+  "whole_sha256": "2617f145e8fbbc36b2e1fa513133bafbc2dcdbd5f980ad36df206846813a80e9",
+  "parts": [
+    {"name":"H004A_evidence_part01.bin","bytes":41943040,"sha256":"33d8e06de5b3de18e0b24d19f79a9b3b741e124c3b54884ea9f1ea3b42962080","drive_id":"1ZG6q_UGxXiurj-ltoZqARcDl09Slflo1"},
+    {"name":"H004A_evidence_part02.bin","bytes":41943040,"sha256":"b9ac5058740c693dc161ab0d1f35387a8c6e553539addde3fe90a0391c7cedf8","drive_id":"19xxWHO96Oc6k9swTn92pJGrx0Cl3zNNQ"},
+    {"name":"H004A_evidence_part03.bin","bytes":41943040,"sha256":"96efe444e5bdbb54771e910c55753e5b84df89180507116df188fb27587b50cb","drive_id":"1K3T7_KA-AwT_IQsGs3bBoDl1rx9s9ECY"},
+    {"name":"H004A_evidence_part04.bin","bytes":41943040,"sha256":"5310f89a0dfc0ba713d28165384420736bfa3295d5ce998631dc8140144c67bc","drive_id":"1kY2OT3CqjMR_DXedq6jrqeCyZE75ds2Y"},
+    {"name":"H004A_evidence_part05.bin","bytes":41943040,"sha256":"48b07ba243d370efc5067baeee00fde0ea5670efbefeacc3fb69c4c105571021","drive_id":"1VEJ1R-Mk6mMwuDwhghQTZT0Qul3lD_j0"},
+    {"name":"H004A_evidence_part06.bin","bytes":37279401,"sha256":"5fb384c995622586c122b4b8d71490732e8ba37ece9a0e98562d23fa0c7029b1","drive_id":"1GYWU0bk-PtHlpGWANyyzzmGYT6ijP3cz"}
+  ],
+  "readback_verified": true,
+  "every_part_download_hash_matched": true,
+  "reassembled_bytes": 246994601,
+  "internal_files_verified": 357,
+  "checked_utc": "2026-10-31T01:47:58.521412+00:00",
+  "original_inputs_included": false,
+  "original_input_repository": "LinLee10/mess-of-projects",
+  "original_input_artifact_ids": [10516640062,10518044183,10518774406],
+  "original_input_retention_expires": "2026-12-16",
+  "readback_note": "Initial internal manifest lookup used wrong filename and failed before acceptance. Correct ARTIFACT_SHA256.json was read and every digest checked.",
+  "recovery": "Download all six parts, check each hash, concatenate in numeric order, check whole SHA256, and verify every ARTIFACT_SHA256.json entry. Restore original input archives separately and rerun the independent verifier before the successor."
+}
