@@ -1,0 +1,378 @@
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified
+calibration context=0 rows=100 widths=6 verified
+calibration context=1 rows=4 widths=3 verified
+calibration context=2 rows=1 widths=1 verified
+calibration context=3 rows=5 widths=4 verified
+audit unit_beta_43017 all 110 rows verified
+audit unit_beta_43029 all 110 rows verified
+audit unit_beta_43041 all 110 rows verified
+audit heuristic_43017 all 110 rows verified
+audit heuristic_43029 all 110 rows verified
+audit heuristic_43041 all 110 rows verified
+audit empirical_median_43017 all 110 rows verified
+audit empirical_median_43029 all 110 rows verified
+audit empirical_median_43041 all 110 rows verified
+audit empirical_quantile_43017 all 110 rows verified
+audit empirical_quantile_43029 all 110 rows verified
+audit empirical_quantile_43041 all 110 rows verified

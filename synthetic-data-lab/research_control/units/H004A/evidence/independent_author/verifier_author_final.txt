@@ -1,0 +1,48 @@
+Implemented the independent artifact verifier and fixture tests. **Final validation: 18 passed, exit code 0**, in 11.83 seconds of pytest time. No production imports, commits or pushes were made.
+
+Created:
+
+- [verify_response.py](/private/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/verify_response.py)
+- [test_verify_response.py](/private/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/test_verify_response.py)
+- [VERIFIER_HANDOFF.md](/private/tmp/scale-h004a-review-20261030/synthetic-data-lab/research_control/units/H004A/review/VERIFIER_HANDOFF.md)
+
+The verifier uses `numpy` and exact `sklearn.neighbors.KDTree` queries over every row. It checks input identities and geometry, calibration tables and marginal multisets, distances and anchor quantiles, E/Q selection, all 12 audit artifacts, context and weighted metrics, completion hashes and the mechanism screen. It independently regenerates the inverse controls using the frozen identity keyed rank rule. Successful CLI execution emits strict JSON to stdout and atomically publishes a new report without overwriting an existing file.
+
+The successful constructed fixture report records:
+
+| Checked item | Count |
+|---|---:|
+| Training and leave one out rows | 110 |
+| Contexts | 4 |
+| Calibration tables | 28 |
+| Calibration rows | 1,266 |
+| Regenerated inverse rows | 1,266 |
+| Audit files | 12 |
+| Audit rows | 1,320 |
+| Audit context blocks | 48 |
+
+Tests cover ordinary and degenerate contexts, correct selection, NaN rejection before fallback, corrupted assigned and inverse distances, altered marginals and selected widths, missing audit seeds, duplicate or misaligned contexts, input label mismatch, malformed shapes, missing context lists, screen tampering and output preservation.
+
+Actual evidence is retained:
+
+- [Final execution record](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/accepted_tests.execution.json)
+- [Test stdout](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/accepted_tests.stdout.log) and [stderr](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/accepted_tests.stderr.log)
+- [Successful fixture JSON report](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/accepted_fixture_runs/test_correct_complete_fixture_0/REPORT.json)
+- [Deliberate late failure log](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/accepted_fixture_runs/test_failed_cli_retains_partia0/failure.stderr.log), preserving progress and the validation traceback; no success report was created
+- [SHA256 manifest](/private/tmp/scale-h004a-review-20261030/reviewer_logs/h004a_verifier/SHA256.json), covering 1,538 files
+
+Verifier SHA256: `7316607748cb268003f834c366eb23e4b534cc0e8f24422d9dadef7e7f134836`
+
+Tests SHA256: `43a47108486cd30c3ffb5d581da6e0ffbf19a9d7db72ba7d5389bc266c427094`
+
+**Limits:** These results establish synthetic fixture behavior only. Full population execution and resource compliance remain untested. Archive hashes and internal manifests remain coordinator prerequisites; consistent selection hashes cannot prove creation before audit generation. The handoff documents JSON representation conventions, including null relative metrics for zero targets and the mechanism screen encoding. No scientific novelty, privacy, utility or promotion acceptance is claimed.
+
+The next action is the coordinator’s full execution in pinned Linux:
+
+```sh
+python synthetic-data-lab/research_control/units/H004A/review/verify_response.py \
+  --inputs INPUT_ROOT \
+  --calibration CAL_DIR \
+  --audit AUDIT_DIR \
+  --output NEW_REPORT.json
+```
