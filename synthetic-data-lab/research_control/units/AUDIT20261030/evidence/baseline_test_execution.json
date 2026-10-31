@@ -1,0 +1,172 @@
+{
+  "scope": "Bounded synthetic recovery engineering baseline only",
+  "git_head": "a16346497fc791b5d7234c82d998cd245f1ba5dc",
+  "protected_sha256_before": {
+    "synthetic-data-lab/research_control/units/H003R/review/aggregate_results.py": "38838bf493b31785f1773a058dfa36dfd0f909959edef5da82dac1fddd918911",
+    "synthetic-data-lab/research_control/units/H003R/review/audit_recovery.py": "d1ffc4c1c448cfb30a07c919a2942257dd9c2ca7de3e7a610d5524a6a6220569",
+    "synthetic-data-lab/research_control/units/H003R/review/context_proximity.py": "bd2bd1666fa098e57e6f388c9a93f0a204aa11be22752c32984471bdc06df65c",
+    "synthetic-data-lab/research_control/units/H003R/review/real_reference_control.py": "f5a9051f1c4bd85ee819e297b8ec008b5e153d005c12a46c7fab01dfb13f9c1f",
+    "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "29ab91e02b6746476c32b4fc663de7a6aba8f73fbd6ee1a9aa5946a535134af7",
+    "synthetic-data-lab/research_control/units/H003R/review/test_audit.py": "5e58e509ceb3f93751e73586e1ee69c3d832da8f55498a7dd9a6bfc7f0e795bc",
+    "synthetic-data-lab/research_control/units/H003R/review/test_context_proximity.py": "1b8f0fb6431887560721ef98a4d01480efe65aff340d827dcc362d62455a0a74",
+    "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94"
+  },
+  "protected_sha256_after": {
+    "synthetic-data-lab/research_control/units/H003R/review/aggregate_results.py": "38838bf493b31785f1773a058dfa36dfd0f909959edef5da82dac1fddd918911",
+    "synthetic-data-lab/research_control/units/H003R/review/audit_recovery.py": "d1ffc4c1c448cfb30a07c919a2942257dd9c2ca7de3e7a610d5524a6a6220569",
+    "synthetic-data-lab/research_control/units/H003R/review/context_proximity.py": "bd2bd1666fa098e57e6f388c9a93f0a204aa11be22752c32984471bdc06df65c",
+    "synthetic-data-lab/research_control/units/H003R/review/real_reference_control.py": "f5a9051f1c4bd85ee819e297b8ec008b5e153d005c12a46c7fab01dfb13f9c1f",
+    "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "29ab91e02b6746476c32b4fc663de7a6aba8f73fbd6ee1a9aa5946a535134af7",
+    "synthetic-data-lab/research_control/units/H003R/review/test_audit.py": "5e58e509ceb3f93751e73586e1ee69c3d832da8f55498a7dd9a6bfc7f0e795bc",
+    "synthetic-data-lab/research_control/units/H003R/review/test_context_proximity.py": "1b8f0fb6431887560721ef98a4d01480efe65aff340d827dcc362d62455a0a74",
+    "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94"
+  },
+  "protected_unchanged": true,
+  "acceptance_test_sha256": "8588320e2785ae4629e9f0f142047c2cdb50e6661197c52b2baed9728e888b42",
+  "setup_failure": {
+    "command": "python - <<'PY' [inline test creation and runner]",
+    "stdout": "",
+    "stderr": "zsh:1: command not found: python\n",
+    "exit_code": 127,
+    "effect": "No Python code ran; retried using installed python3."
+  },
+  "runs": [
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "-m",
+        "pytest",
+        "-vv",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=review_acceptance/pytest_tmp",
+        "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py"
+      ],
+      "cwd": "/private/tmp/scale-synthetic-review-20261030",
+      "environment_overrides": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout": "============================= test session starts ==============================\nplatform darwin -- Python 3.12.8, pytest-7.4.3, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.12/bin/python3\nrootdir: /private/tmp/scale-synthetic-review-20261030\nplugins: socket-0.7.0, asyncio-0.21.1, dash-3.2.0, Faker-37.6.0, anyio-3.7.1\nasyncio: mode=Mode.STRICT\ncollecting ... collected 6 items\n\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_archive_corruption PASSED [ 16%]\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_extra_unlisted PASSED [ 33%]\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_internal_corruption PASSED [ 50%]\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_preserve_existing PASSED [ 66%]\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_unsafe PASSED [ 83%]\nsynthetic-data-lab/research_control/units/H003R/review/test_recovery.py::RecoveryControls::test_valid PASSED [100%]\n\n============================== 6 passed in 0.03s ===============================\n",
+      "stderr": "",
+      "exit_code": 0,
+      "elapsed_seconds": 1.5015499591827393
+    },
+    {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "-B",
+        "-m",
+        "pytest",
+        "-vv",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=review_acceptance/pytest_tmp",
+        "review_acceptance/test_recovery_acceptance.py"
+      ],
+      "cwd": "/private/tmp/scale-synthetic-review-20261030",
+      "environment_overrides": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout": "============================= test session starts ==============================\nplatform darwin -- Python 3.12.8, pytest-7.4.3, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.12/bin/python3\nrootdir: /private/tmp/scale-synthetic-review-20261030\nplugins: socket-0.7.0, asyncio-0.21.1, dash-3.2.0, Faker-37.6.0, anyio-3.7.1\nasyncio: mode=Mode.STRICT\ncollecting ... collected 6 items\n\nreview_acceptance/test_recovery_acceptance.py::test_valid_archive_control PASSED [ 16%]\nreview_acceptance/test_recovery_acceptance.py::test_noncanonical_member_path_rejected FAILED [ 33%]\nreview_acceptance/test_recovery_acceptance.py::test_distinct_member_alias_overwrite_rejected FAILED [ 50%]\nreview_acceptance/test_recovery_acceptance.py::test_duplicate_json_manifest_keys_rejected FAILED [ 66%]\nreview_acceptance/test_recovery_acceptance.py::test_existing_destination_preserved PASSED [ 83%]\nreview_acceptance/test_recovery_acceptance.py::test_cleanup_after_rejected_input PASSED [100%]\n\n=================================== FAILURES ===================================\n____________________ test_noncanonical_member_path_rejected ____________________\n\ntmp_path = PosixPath('/private/tmp/scale-synthetic-review-20261030/review_acceptance/pytest_tmp/test_noncanonical_member_path_0')\n\n    def test_noncanonical_member_path_rejected(tmp_path):\n        payload = b\"noncanonical\"\n        path, pin = archive(tmp_path, [(\"./payload.txt\", payload)],\n                            json.dumps({\"payload.txt\": sha(payload)}))\n>       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE <class 'ValueError'>\n\nreview_acceptance/test_recovery_acceptance.py:53: Failed\n________________ test_distinct_member_alias_overwrite_rejected _________________\n\ntmp_path = PosixPath('/private/tmp/scale-synthetic-review-20261030/review_acceptance/pytest_tmp/test_distinct_member_alias_ove0')\n\n    def test_distinct_member_alias_overwrite_rejected(tmp_path):\n        first, last = b\"original evidence\", b\"replacement evidence\"\n        path, pin = archive(tmp_path, [(\"payload.txt\", first), (\"./payload.txt\", last)],\n                            json.dumps({\"payload.txt\": sha(last)}))\n>       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE <class 'ValueError'>\n\nreview_acceptance/test_recovery_acceptance.py:62: Failed\n__________________ test_duplicate_json_manifest_keys_rejected __________________\n\ntmp_path = PosixPath('/private/tmp/scale-synthetic-review-20261030/review_acceptance/pytest_tmp/test_duplicate_json_manifest_k0')\n\n    def test_duplicate_json_manifest_keys_rejected(tmp_path):\n        payload = b\"checked evidence\"\n        manifest = ('{\"payload.txt\": \"' + \"0\" * 64 +\n                    '\", \"payload.txt\": \"' + sha(payload) + '\"}')\n        path, pin = archive(tmp_path, [(\"payload.txt\", payload)], manifest)\n>       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE <class 'ValueError'>\n\nreview_acceptance/test_recovery_acceptance.py:72: Failed\n=========================== short test summary info ============================\nFAILED review_acceptance/test_recovery_acceptance.py::test_noncanonical_member_path_rejected\nFAILED review_acceptance/test_recovery_acceptance.py::test_distinct_member_alias_overwrite_rejected\nFAILED review_acceptance/test_recovery_acceptance.py::test_duplicate_json_manifest_keys_rejected\n========================= 3 failed, 3 passed in 0.08s ==========================\n",
+      "stderr": "",
+      "exit_code": 1,
+      "elapsed_seconds": 0.6138579845428467
+    }
+  ],
+  "retained_fixture_and_result_files": {
+    "review_acceptance/pytest_tmp/test_cleanup_after_rejected_in0/input.zip": {
+      "sha256": "a7638709e8a0b5ae25830deb600a7ce44a32662e40c1ecc7b76c5788da9eae81",
+      "bytes": 373
+    },
+    "review_acceptance/pytest_tmp/test_cleanup_after_rejected_in0/retained.txt": {
+      "sha256": "cf70373520080004752b837e115d1bae2288eb0cc27de1d96440c85af16c74c6",
+      "bytes": 27
+    },
+    "review_acceptance/pytest_tmp/test_distinct_member_alias_ove0/input.zip": {
+      "sha256": "84bd4ba93fe07cea7c880faae51610180cf27d6b4faf35faa2d13f0142c5feca",
+      "bytes": 458
+    },
+    "review_acceptance/pytest_tmp/test_distinct_member_alias_ove0/output/ARTIFACT_SHA256.json": {
+      "sha256": "c34c92e90c1f9d0925c3d740fc649d91fc7616ddd6cc6dc99cd741f37d60c79b",
+      "bytes": 83
+    },
+    "review_acceptance/pytest_tmp/test_distinct_member_alias_ove0/output/payload.txt": {
+      "sha256": "9f4a068fb101de96f4348f422fc84c1e6c0ee129eade887c95bec10ab0554f1a",
+      "bytes": 20
+    },
+    "review_acceptance/pytest_tmp/test_duplicate_json_manifest_k0/input.zip": {
+      "sha256": "fc240d65b15876ebb3b5926125ffc7f55ea6d849096a42b0d42f32512d638355",
+      "bytes": 418
+    },
+    "review_acceptance/pytest_tmp/test_duplicate_json_manifest_k0/output/ARTIFACT_SHA256.json": {
+      "sha256": "96ae00680ee8c2dd6bfd04f65341f40fe62284fe97d9a6f78e46c54aac618001",
+      "bytes": 166
+    },
+    "review_acceptance/pytest_tmp/test_duplicate_json_manifest_k0/output/payload.txt": {
+      "sha256": "a06580d6ceda176885b7d46ba52084b1743497efd00763c5491c4fbeea45efe3",
+      "bytes": 16
+    },
+    "review_acceptance/pytest_tmp/test_existing_destination_pres0/input.zip": {
+      "sha256": "96e19740b1401ce332b509b911ce9b8ee2996269b97ac44a561ecc9e7c0a8026",
+      "bytes": 331
+    },
+    "review_acceptance/pytest_tmp/test_existing_destination_pres0/output/retained.txt": {
+      "sha256": "41f8aefe9123d5b9b72d87f3f3787d870687e63a6938c44dc58f9eec681fea58",
+      "bytes": 17
+    },
+    "review_acceptance/pytest_tmp/test_noncanonical_member_path_0/input.zip": {
+      "sha256": "720d868763c2574c05d175dfe2e4783b3641b1ff3458d8ab0a25ffb06a98493e",
+      "bytes": 335
+    },
+    "review_acceptance/pytest_tmp/test_noncanonical_member_path_0/output/ARTIFACT_SHA256.json": {
+      "sha256": "0ac9acb6e53a839e81c59d1f40e8695d6854a9fbcc58958b44019edda87280b0",
+      "bytes": 83
+    },
+    "review_acceptance/pytest_tmp/test_noncanonical_member_path_0/output/payload.txt": {
+      "sha256": "b2a51b26b0ee8c4575eb46e9fc286fefb5c8f8366e77ddbae01483b083b72648",
+      "bytes": 12
+    },
+    "review_acceptance/pytest_tmp/test_valid_archive_control0/input.zip": {
+      "sha256": "e5fc4fae206a6574f2b9095656f379c262ea1ef427a6e079316c0ff54d0558ac",
+      "bytes": 356
+    },
+    "review_acceptance/pytest_tmp/test_valid_archive_control0/output/ARTIFACT_SHA256.json": {
+      "sha256": "4a97aa8386f0c422ced84a88613244005d0d4e3543e58340067219dd56ca9ce2",
+      "bytes": 90
+    },
+    "review_acceptance/pytest_tmp/test_valid_archive_control0/output/nested/payload.txt": {
+      "sha256": "a06580d6ceda176885b7d46ba52084b1743497efd00763c5491c4fbeea45efe3",
+      "bytes": 16
+    }
+  },
+  "failure_output_readback": {
+    "test_noncanonical_member_path_0": {
+      "destination_exists": true,
+      "payload": "noncanonical",
+      "manifest_raw": "{\"payload.txt\": \"b2a51b26b0ee8c4575eb46e9fc286fefb5c8f8366e77ddbae01483b083b72648\"}"
+    },
+    "test_distinct_member_alias_ove0": {
+      "destination_exists": true,
+      "payload": "replacement evidence",
+      "manifest_raw": "{\"payload.txt\": \"9f4a068fb101de96f4348f422fc84c1e6c0ee129eade887c95bec10ab0554f1a\"}"
+    },
+    "test_duplicate_json_manifest_k0": {
+      "destination_exists": true,
+      "payload": "checked evidence",
+      "manifest_raw": "{\"payload.txt\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"payload.txt\": \"a06580d6ceda176885b7d46ba52084b1743497efd00763c5491c4fbeea45efe3\"}"
+    }
+  },
+  "python_version": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "final_git_status": {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "stdout": "?? review_acceptance/\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "matches_prior_protected_snapshot": true
+}

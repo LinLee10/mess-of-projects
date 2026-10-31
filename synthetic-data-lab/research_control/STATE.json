@@ -2,7 +2,7 @@
   "schema_version": 5,
   "repository": "LinLee10/mess-of-projects",
   "branch": "research/synthetic-data-reviewed-20260911",
-  "updated_date": "2026-09-17",
+  "updated_date": "2026-10-30",
   "phase": "4_replicated_neighborhood_smoothing_mechanism_challenge",
   "status": "H003R_verified_three_seed_development_tradeoff",
   "last_execution_source_commit": "f698bbbff3059d7ba7c539de106ebb9573b4088f",
@@ -35,5 +35,28 @@
   "originality_status": "not_established; primary abstract prior art challenge retained in units/H003R/PRIOR_ART.md",
   "independence": "Same assistant author, separate read only scripts and fresh processes. No external agent or human approval.",
   "constraints": {"no_tinyfish":true,"no_paid_compute":true,"no_new_dataset_without_user_approval":true,"no_force_push":true,"preserve_main_and_historical_evidence":true,"no_arbitrary_training_caps":true},
-  "unfinished": ["Training only bandwidth mechanism ablation", "Pilot and student randomness robustness", "Five seed promotion", "Full feature relationship tests", "Rare context sensitivity", "Neural reference", "Independent final confirmation", "Beijing transfer", "Volume effects", "Established scientific priority"]
+  "unfinished": ["Training only bandwidth mechanism ablation", "Pilot and student randomness robustness", "Five seed promotion", "Full feature relationship tests", "Rare context sensitivity", "Neural reference", "Independent final confirmation", "Beijing transfer", "Volume effects", "Established scientific priority"],
+  "engineering_recovery_audit": {
+    "id": "AUDIT20261030",
+    "source_recovered": "a16346497fc791b5d7234c82d998cd245f1ba5dc",
+    "verified_archive_count": 5,
+    "verified_internal_files": 357,
+    "full_H003_replays_passed": [
+      17,
+      29,
+      41
+    ],
+    "original_control_tests_passed": 66,
+    "legacy_compatibility_tests_passed": 60,
+    "local_recovery_gate_tests_passed": 27,
+    "independently_authored_new_recovery_tests": 6,
+    "independent_baseline_failures_reproduced": 3,
+    "production_changes": "Recovery helper only; generators and original tests unchanged",
+    "fresh_fixture_student_fits": 6,
+    "fresh_fixture_scope": "Engineering only, 560 constructed training rows and 210 evaluation rows",
+    "scientific_acceptance": false,
+    "report": "units/AUDIT20261030/REPORT.md",
+    "next_steps": "units/AUDIT20261030/NEXT_STEPS.md",
+    "ci_execution": "Require completed run at the repair candidate; workflow existence is not success"
+  }
 }

@@ -1,5 +1,9 @@
 # Resume after verified H003 replication
 
+## October 30, 2026 recovery update
+
+Read units/AUDIT20261030/REPORT.md and units/AUDIT20261030/NEXT_STEPS.md for the new source recovery, integrity repair and actual validation evidence. The original source and H003R archives have been recovered. H004A remains planned, not executed; independent scientific acceptance and historical final holdout exposure remain unresolved. The private INT constructed interaction studies are a separate line. The historical continuation below is preserved.
+
 Read STATE.json, findings/H003R/SUMMARY.md, findings/H003R/ARTIFACT_INDEX.json, units/H003R/PROTOCOL.md and units/H003R/REVIEW_NOTES.md. Do not restart the project. H002 and H003 were recovered and verified, and H003R run 35283101267 completed seeds 29 and 41. Both archives were retrieved and verified. No research job from this continuation remains running.
 
 Across seeds 17, 29 and 41, adaptive beta has tree balanced accuracy 86.187283 percent versus the frozen real reference 86.333882 percent. Its unusually close fraction is 5.706286 percent, versus 46.645131 for neighbor rank. This is a replicated development tradeoff, not scientific novelty, privacy or a universal improvement. Linear utility is still weaker than both neighbor controls. Rare class outcomes vary; the seed 17 loss versus real data does not persist in the additional seeds.
