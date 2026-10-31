@@ -57,6 +57,6 @@
     "scientific_acceptance": false,
     "report": "units/AUDIT20261030/REPORT.md",
     "next_steps": "units/AUDIT20261030/NEXT_STEPS.md",
-    "ci_execution": "Require completed run at the repair candidate; workflow existence is not success"
+    "ci_execution": "Blocked: repository Actions enabled is false; settings unchanged; see units/AUDIT20261030/CI_BLOCKER.md"
   }
 }

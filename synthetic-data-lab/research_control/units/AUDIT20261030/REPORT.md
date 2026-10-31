@@ -69,3 +69,9 @@ python review_acceptance/run_recovery_gate.py --output /tmp/scale-recovery-accep
 ```
 
 Use a new output directory. The scoped workflow runs the same gate on Python 3.12 and 3.13 using ordinary public CPU runners. Workflow presence is not proof of execution; its completed run and exact candidate commit must be checked separately. No merge or scientific promotion is authorized by a passing recovery gate.
+
+## Final isolated review and hosted CI status
+
+An isolated external candidate review returned PASS for the bounded recovery contract at 2a4129f699a45ecad4aeda2f7bf4902ba161c422. It ran all 27 controls and confirmed that optimized Python fails explicitly. The final review and its actual execution record are retained under evidence. This is engineering acceptance only.
+
+Hosted CI did not start because repository Actions are disabled. The settings read returned enabled false. This policy was left unchanged. Read CI_BLOCKER.md before relying on automated enforcement or merging. Main and the original research branch still match their prechange references. Subsequent additions in this audit are evidence and status documentation, not changes to the reviewed executable files.
