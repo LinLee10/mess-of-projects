@@ -14,8 +14,19 @@ def digest(path: Path) -> str:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 def safe_name(name: str) -> bool:
+    if not isinstance(name, str) or '\x00' in name:
+        return False
     p = PurePosixPath(name)
-    return bool(name) and not p.is_absolute() and '..' not in p.parts and '\\' not in name and ':' not in name
+    return (bool(p.parts) and str(p) == name and not p.is_absolute()
+            and '..' not in p.parts and '\\' not in name and ':' not in name)
+
+def unique_manifest_pairs(pairs):
+    result = {}
+    for name, value in pairs:
+        if name in result:
+            raise ValueError('Duplicate manifest key: ' + name)
+        result[name] = value
+    return result
 
 def recover(archive: Path, expected: str, destination: Path) -> dict:
     if not re.fullmatch('[0-9a-f]{64}', expected):
@@ -32,11 +43,16 @@ def recover(archive: Path, expected: str, destination: Path) -> dict:
             members = z.infolist()
             if len(set(i.filename for i in members)) != len(members):
                 raise ValueError('Duplicate archive paths')
+            normalized = set()
             for item in members:
-                if not safe_name(item.filename) or stat.S_ISLNK(item.external_attr >> 16):
+                name = item.filename[:-1] if item.is_dir() else item.filename
+                if (not safe_name(name) or item.orig_filename != item.filename
+                        or name in normalized or stat.S_ISLNK(item.external_attr >> 16)):
                     raise ValueError('Unsafe archive member')
+                normalized.add(name)
             z.extractall(staging)
-        manifest = json.loads((staging/'ARTIFACT_SHA256.json').read_text())
+        manifest = json.loads((staging/'ARTIFACT_SHA256.json').read_text(),
+                              object_pairs_hook=unique_manifest_pairs)
         if not isinstance(manifest, dict):
             raise ValueError('Expected manifest mapping')
         files = {str(f.relative_to(staging)) for f in staging.rglob('*') if f.is_file()}

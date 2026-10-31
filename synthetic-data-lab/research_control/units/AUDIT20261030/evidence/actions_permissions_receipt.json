@@ -1,0 +1,15 @@
+{
+  "command": [
+    "gh",
+    "api",
+    "repos/LinLee10/mess-of-projects/actions/permissions"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"enabled\":false,\"sha_pinning_required\":false}",
+  "stderr": "",
+  "parsed": {
+    "enabled": false,
+    "sha_pinning_required": false
+  },
+  "settings_modified": false
+}

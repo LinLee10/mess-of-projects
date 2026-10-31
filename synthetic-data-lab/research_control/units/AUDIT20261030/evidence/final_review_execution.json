@@ -1,0 +1,162 @@
+{
+  "cwd": "/private/tmp/scale-synthetic-final-review-20261030",
+  "candidate": "2a4129f699a45ecad4aeda2f7bf4902ba161c422",
+  "baseline": "a16346497fc791b5d7234c82d998cd245f1ba5dc",
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "sha256_before": {
+    "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "69adb10b1894f1d6d8cce2af0e44dbd96917ca4d4c7d06045b43d510ca161392",
+    "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94",
+    "review_acceptance/test_recovery_acceptance.py": "8588320e2785ae4629e9f0f142047c2cdb50e6661197c52b2baed9728e888b42",
+    "review_acceptance/test_recovery_cli.py": "6511484cf4cc6f84a9a2ddfc3b4ee5f3e2226bc89c115b3a8e9fa3b80c771d48",
+    "review_acceptance/run_recovery_gate.py": "4695fbe63ffc38eda1c74a933d03e8d69ada23573e481ddb3d03d52153515368"
+  },
+  "head_before": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "stdout": "2a4129f699a45ecad4aeda2f7bf4902ba161c422\n",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.0047499580250587314
+  },
+  "tracked_status_before": {
+    "command": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.09622725000372157
+  },
+  "environment_overrides": {
+    "TMPDIR": "/private/tmp/scale-synthetic-final-review-20261030/final_review/tmp",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "normal_gate": {
+    "command": [
+      "python3",
+      "review_acceptance/run_recovery_gate.py",
+      "--output",
+      "final_review/gate"
+    ],
+    "stdout": "...........................                                              [100%]\n27 passed in 0.17s\n{\"status\": \"passed\", \"report\": \"/private/tmp/scale-synthetic-final-review-20261030/final_review/gate/report.json\"}\n",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.401975582994055
+  },
+  "optimized_gate": {
+    "command": [
+      "python3",
+      "-O",
+      "review_acceptance/run_recovery_gate.py",
+      "--output",
+      "final_review/gate_optimized"
+    ],
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/scale-synthetic-final-review-20261030/review_acceptance/run_recovery_gate.py\", line 77, in <module>\n    raise SystemExit(main())\n                     ^^^^^^\n  File \"/private/tmp/scale-synthetic-final-review-20261030/review_acceptance/run_recovery_gate.py\", line 34, in main\n    raise RuntimeError('Optimized Python is not an accepted validation environment')\nRuntimeError: Optimized Python is not an accepted validation environment\n",
+    "exit_code": 1,
+    "elapsed_seconds": 0.04054191699833609
+  },
+  "optimized_output_exists": false,
+  "sha256_after": {
+    "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "69adb10b1894f1d6d8cce2af0e44dbd96917ca4d4c7d06045b43d510ca161392",
+    "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94",
+    "review_acceptance/test_recovery_acceptance.py": "8588320e2785ae4629e9f0f142047c2cdb50e6661197c52b2baed9728e888b42",
+    "review_acceptance/test_recovery_cli.py": "6511484cf4cc6f84a9a2ddfc3b4ee5f3e2226bc89c115b3a8e9fa3b80c771d48",
+    "review_acceptance/run_recovery_gate.py": "4695fbe63ffc38eda1c74a933d03e8d69ada23573e481ddb3d03d52153515368"
+  },
+  "tracked_status_after": {
+    "command": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.05217216699384153
+  },
+  "tracked_diff": {
+    "command": [
+      "git",
+      "diff",
+      "--exit-code",
+      "HEAD",
+      "--"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.05170554100186564
+  },
+  "head_after": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "stdout": "2a4129f699a45ecad4aeda2f7bf4902ba161c422\n",
+    "stderr": "",
+    "exit_code": 0,
+    "elapsed_seconds": 0.004127041989704594
+  },
+  "hashes_unchanged": true,
+  "gate_report": {
+    "status": "passed",
+    "git_head": "2a4129f699a45ecad4aeda2f7bf4902ba161c422",
+    "source_sha256": "69adb10b1894f1d6d8cce2af0e44dbd96917ca4d4c7d06045b43d510ca161392",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py",
+      "review_acceptance/test_recovery_acceptance.py",
+      "review_acceptance/test_recovery_cli.py"
+    ],
+    "cwd": "/private/tmp/scale-synthetic-final-review-20261030",
+    "exit_code": 0,
+    "elapsed_seconds": 0.353423832973931,
+    "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "macOS-15.6.1-arm64-arm-64bit",
+    "sha256_before": {
+      "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94",
+      "review_acceptance/test_recovery_acceptance.py": "8588320e2785ae4629e9f0f142047c2cdb50e6661197c52b2baed9728e888b42",
+      "review_acceptance/test_recovery_cli.py": "6511484cf4cc6f84a9a2ddfc3b4ee5f3e2226bc89c115b3a8e9fa3b80c771d48",
+      "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "69adb10b1894f1d6d8cce2af0e44dbd96917ca4d4c7d06045b43d510ca161392",
+      "review_acceptance/run_recovery_gate.py": "4695fbe63ffc38eda1c74a933d03e8d69ada23573e481ddb3d03d52153515368"
+    },
+    "sha256_after": {
+      "synthetic-data-lab/research_control/units/H003R/review/test_recovery.py": "63a3e6d16caeea82986877af2e3007f4d01fde9465199ef41754b68499441b94",
+      "review_acceptance/test_recovery_acceptance.py": "8588320e2785ae4629e9f0f142047c2cdb50e6661197c52b2baed9728e888b42",
+      "review_acceptance/test_recovery_cli.py": "6511484cf4cc6f84a9a2ddfc3b4ee5f3e2226bc89c115b3a8e9fa3b80c771d48",
+      "synthetic-data-lab/research_control/units/H003R/review/recover_artifact.py": "69adb10b1894f1d6d8cce2af0e44dbd96917ca4d4c7d06045b43d510ca161392",
+      "review_acceptance/run_recovery_gate.py": "4695fbe63ffc38eda1c74a933d03e8d69ada23573e481ddb3d03d52153515368"
+    },
+    "protected_tests_unchanged": true,
+    "scientific_acceptance": false,
+    "scope": "Recovery API and CLI controls only; no model training or holdout access"
+  },
+  "final_tracked_status": {
+    "command": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "stdout": "",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "verdict": "PASS",
+  "remaining_findings": []
+}
