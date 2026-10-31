@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/private/tmp/scale-h004a-20261030/synthetic-data-lab/research_control/units/H004A/review/test_mechanism_contract.py"
+  ],
+  "exit_code": 0,
+  "stdout": ".........................................                                [100%]\n41 passed in 0.43s\n",
+  "stderr": "",
+  "sha256": {
+    "src/mechanism.py": "f38eaf36c07273c3015ee729bd80b34470cb4576c3459c564ea611c78ca849ad",
+    "src/run_response.py": "1015f04cd0ae5bca64faef608212dd85214b9d700e017036190eda1224361f13",
+    "review/test_mechanism_contract.py": "5f3c0466488501c2598368ada5529d54c23cfeafa756897008573b4ba270ba37"
+  }
+}
