@@ -1,0 +1,31 @@
+# H004B: utility challenge and published resampling controls
+
+Registered after H004A geometry measurements but before any H004B student fits, development scoring or new reference generation. Execution requires independent full population verification of H004A. This is a conditional next unit, not an approval based on the selecting diagnostic alone.
+
+## Question and frozen comparisons
+
+Does the observed improvement in training geometry preserve downstream utility? Does independently resampling anchors, as in the published empirical beta copula sampler, change the fidelity and utility tradeoff relative to using each original anchor once? Both questions are exploratory development questions. Historical final holdout exposure remains unknown.
+
+Retain all four frozen H004A audit methods: unit_beta, heuristic, empirical_median and empirical_quantile. Use their complete saved tables for seeds 43017, 43029 and 43041 without regeneration or reselection. Add two paired references, iid_beta_inverse and iid_beta_rank, using the same new latent sample per context and seed. Fit one fresh real reference, not three copies represented as independent observations.
+
+The reference implements Algorithm 3.2 in Kiriliouk, Segers and Tsukahara, Resampling Procedures with Empirical Beta Copulas, arXiv:1905.12466, page 8. Within each original context, choose n anchor indices independently and uniformly with replacement. Independently sample each latent coordinate from Beta(r_anchor,n+1-r_anchor). Use default_rng(SeedSequence([seed,context_index,3202])). The inverse reference maps each latent coordinate to sorted_reference[min(floor(n*u),n-1)]. The rank reference assigns the exact original marginal multiset by latent order with immutable synthetic row identities. Original training ranks use the frozen H002 identity keyed tie rule. Retain anchor identities and latent draws. Context conditioning, discrete tied data, inverse empirical marginal reconstruction and the rank projection are declared adaptations; this is not reproduction of a published benchmark score or a claim that the project's stratified H004A sampler is iid.
+
+Every method uses 348563 generated or real training rows, all 232 original contexts and 116314 real development observations. Preserve the original natural context counts. No source cap, category balancing, new data or reserved test access. Existing H001, B002 and H003 input archives and membership identities remain fixed. The full old historical test exposure is not presumed clean.
+
+## Students and inference
+
+Use the unchanged H001 fit_student boosted tree recipe and unchanged B002 fit_linear recipe with the unchanged H001C encoding. LightGBM uses 150 trees, 63 leaves, learning rate 0.08, fixed learner seed 991, two threads, deterministic force_col_wise, and the original categorical columns. Logistic regression uses C1, lbfgs, max_iter1000, tolerance 1e-5, numeric scaling and the fixed four and forty category one hot encoding. Student inputs are columns 0 through 11 only; cover class is column12. Convergence is mandatory. Use a fixed row permutation default_rng(88017) for every complete student training table, including real, before fitting. This prevents context block ordering from being a method specific nuisance; it is an explicit departure from historical row order. Record input hashes after this permutation. No student hyperparameter tuning or new seeds after scores are observed.
+
+The full matrix has six methods times three generation seeds plus one real reference, with two student families, totaling 38 fresh fits. Retain every student model, probability vector, true development labels, confusion matrix, class recall, correct count, balanced accuracy, fit time and convergence record. Recompute metric arithmetic without production scoring imports and reload every model. Verify probability tolerance separately from saved arithmetic and require unchanged predicted classes. A failed fit remains failed, with no replacement condition.
+
+## Diagnostics and decision
+
+For the two iid references, compute complete contextual marginal errors and exact marginal equality, all training nearest distances, exact copies, unique rows, context geometry and pairwise Spearman error. For H004A candidates reuse independently verified training diagnostics; do not retune widths using development utility. Retain all paired inverse and rank reference outcomes, including any deterioration.
+
+The predefined engineering screen for E and Q versus the heuristic requires the H004A geometry screen, mean boosted tree balanced accuracy loss no greater than one percentage point, mean linear balanced accuracy loss no greater than 0.5 percentage point, and mean recall loss for every class no greater than three percentage points for either learner. Report every seed and class in addition to means. These tolerances define this exploratory screen, not statistical noninferiority, deployment approval, formal privacy or scientific novelty. The real reference remains separate. No confidence interval over independent populations is inferred from three generation seeds.
+
+## Gates and resources
+
+The independent H004A verifier must pass first. Require all original controls, unchanged 41 H004A contracts, a full small software fixture and explicit published sampler controls: deterministic anchor and beta reconstruction, exact uniform mixture CDF identity for the untied latent kernel, valid categories, finite bounds, preservation of inputs, paired latent reuse and exact rank reference marginals. Invalid or corrupt artifacts must be rejected. Run identity and output directories must be new. Source, protocol, commands, dependency hashes and package versions must be recorded before full fits.
+
+One CPU worker, at most two numerical threads, 30 minute total generation and fitting ceiling, no automatic retries. Verification has a separate 30 minute ceiling. Save each completed condition immediately and preserve partial results on interruption. No paid compute, repository policy change, force push, merge, original test edit or historical evidence replacement. No claim of comparative performance against TabDiff, TabSyn or ForestDiffusion without actually running their matched protocols.
