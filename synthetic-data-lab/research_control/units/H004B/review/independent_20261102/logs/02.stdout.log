@@ -1,0 +1,13 @@
+usage: verify_utility.py [-h] --inputs INPUTS --audit AUDIT --verification
+                         VERIFICATION --run RUN --output OUTPUT
+
+Independent H004B artifact acceptance arithmetic and inference checker. No
+production imports. Full execution requires numpy and LightGBM.
+
+options:
+  -h, --help            show this help message and exit
+  --inputs INPUTS
+  --audit AUDIT
+  --verification VERIFICATION
+  --run RUN
+  --output OUTPUT

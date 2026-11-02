@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "python3",
+    "-B",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "synthetic-data-lab/research_control/units/H004A/review/test_mechanism_contract.py",
+    "synthetic-data-lab/research_control/units/H004B/review/test_resampling_contract.py"
+  ],
+  "exit_code": 0,
+  "stdout": "................................................................         [100%]\n64 passed in 1.79s\n",
+  "stderr": "",
+  "seconds": 2.111699041997781
+}

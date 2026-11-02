@@ -1,0 +1,11 @@
+# H004B continuation before full utility fitting
+
+Resume the frozen 38 fit H004B matrix from source ef986681c264e3df36e02e453575538d2728d5aa. The repository STATE and RESUME files were stale: H004A measurements already exist in the verified six part Drive archive. Do not repeat H004A selection or regenerate its audit candidates.
+
+All six archive parts and 357 internal H004A file digests have been recovered. The unchanged independently authored H004A verifier was reexecuted in Python 3.13.5, numpy 2.3.5, scipy 1.17.0 and scikit learn 1.8.0; it passed the complete calibration and twelve audit datasets. Its current path bound report will admit H004B. No new H004B full data scores were observed when this record was written.
+
+The unchanged 66 original research controls and 41 H004A contracts passed in Linux. A fresh 840 row training and 280 row evaluation software fixture generated both published sampler adaptations and trained six students. Metric corruption, unverified audit paths and a worker deadline overrun were rejected. The original 23 independent sampler tests and 41 H004A contracts passed separately on the Mac. These are software checks, not scientific measurements.
+
+A separate Codex reviewer wrote a new utility verifier and 17 corruption controls without H004B result access. Its source, tests and executed logs are retained under review/independent_20261102. It does not certify supplementary nearest distance and dependence arithmetic; those require a separate full population checker. The reviewed runner's generic overlapping output paths and unbounded admission cases remain limitations. This specific invocation uses disjoint fresh output and execution directories, actual admission identity checks, the frozen 1800 second worker limit, and recorded total elapsed time. No generic CLI repair or hosted CI success is claimed.
+
+Run only one scientific worker with two or fewer numerical threads. Preserve all 38 attempted fits and failed conditions. No changed hyperparameters, replacement seeds, new datasets, reserved evaluation, merge, paid compute or repository policy change. GitHub Actions remains disabled. After execution check every artifact and recompute all screens before reporting comparative findings. The audit branch remains a separate unmerged prerequisite.

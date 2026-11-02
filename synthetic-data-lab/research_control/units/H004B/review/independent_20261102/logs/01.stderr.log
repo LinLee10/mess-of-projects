@@ -1,0 +1,22 @@
+test_01_exact_arithmetic (test_verify_utility.Controls.test_01_exact_arithmetic) ... ok
+test_02_asymmetric_confusion (test_verify_utility.Controls.test_02_asymmetric_confusion) ... ok
+test_03_nonfinite_probability (test_verify_utility.Controls.test_03_nonfinite_probability) ... ok
+test_04_probability_shape_and_range (test_verify_utility.Controls.test_04_probability_shape_and_range) ... ok
+test_05_normalization (test_verify_utility.Controls.test_05_normalization) ... ok
+test_06_label_corruption (test_verify_utility.Controls.test_06_label_corruption) ... ok
+test_07_absent_class (test_verify_utility.Controls.test_07_absent_class) ... ok
+test_08_saved_arithmetic_corruption (test_verify_utility.Controls.test_08_saved_arithmetic_corruption) ... ok
+test_09_reload_tolerance_and_classes (test_verify_utility.Controls.test_09_reload_tolerance_and_classes) ... ok
+test_10_matrix_coverage (test_verify_utility.Controls.test_10_matrix_coverage) ... ok
+test_11_screen_class_veto (test_verify_utility.Controls.test_11_screen_class_veto) ... ok
+test_12_screen_balanced_and_geometry_veto (test_verify_utility.Controls.test_12_screen_balanced_and_geometry_veto) ... ok
+test_13_manifest_hash_coverage_traversal (test_verify_utility.Controls.test_13_manifest_hash_coverage_traversal) ... ok
+test_14_duplicate_json_and_nonfinite (test_verify_utility.Controls.test_14_duplicate_json_and_nonfinite) ... ok
+test_15_linear_encoding_inference (test_verify_utility.Controls.test_15_linear_encoding_inference) ... ok
+test_16_linear_corruptions (test_verify_utility.Controls.test_16_linear_corruptions) ... ok
+test_17_reference_lineage_and_marginals (test_verify_utility.Controls.test_17_reference_lineage_and_marginals) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.095s
+
+OK

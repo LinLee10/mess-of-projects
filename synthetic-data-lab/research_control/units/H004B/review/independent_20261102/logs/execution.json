@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "independent_h004b",
+      "-p",
+      "test_verify_utility.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "01.stdout.log",
+    "stderr": "01.stderr.log",
+    "utc": "2026-11-02T19:04:47.215194+00:00"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "independent_h004b/verify_utility.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "stdout": "02.stdout.log",
+    "stderr": "02.stderr.log",
+    "utc": "2026-11-02T19:04:47.282604+00:00"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "independent_h004b",
+      "-p",
+      "test_verify_utility.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "stdout": "03.stdout.log",
+    "stderr": "03.stderr.log",
+    "utc": "2026-11-02T19:06:10.890006+00:00"
+  }
+]
